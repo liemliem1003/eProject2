@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="stylist.css">
+<div class="content">
+    <div ng-repeat="item in stylist" class="stylist" ng-id="{{'#' + item.id}}">
+        <img src="{{item.icon}}" alt="">
+        <div class="description">
+            <div class="name">{{item.name}}</div>
+            <div class="detail">{{item.description}}</div>
+            <a href="#" title="">Go to Collection >></a>
+        </div>
+    </div>
+</div>

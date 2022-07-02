@@ -1,0 +1,74 @@
+<link rel="stylesheet" href="product.css">
+<div class="product">
+    <h1 class="product-name">{{selectedProduct.name}}</h1>
+    <img src="{{selectedProduct.icon}}" alt="">
+    <div class="star-rating">
+        <span ng-repeat="x in [].constructor(selectedProduct.star) track by $index" class="fa fa-star checked"></span>
+        <span ng-repeat="x in [].constructor(5 - selectedProduct.star) track by $index" class="fa fa-star"></span>
+    </div>
+    <div class="product-description">
+        <div>
+            <br>
+            <h2>{{stylist[selectedProduct.stylist].name}}</h2>
+            {{selectedProduct.desctiption0}}
+            <br><br>
+            {{selectedProduct.desctiption1}}
+            <br><br>
+            {{selectedProduct.desctiption2}}
+        </div>
+    </div>
+    <div class="comment-list">
+        <b>COMMENTS</b>
+        <div class="comment-item" ng-repeat="item in commentlist">
+            <img src="{{item.icon}}" alt="">
+            <div class="comment-item-detail">
+                <div class="name">{{item.name}}</div>
+                <div class="star-rating">
+                    <span ng-repeat="x in [].constructor(item.star) track by $index" class="fa fa-star checked"></span>
+                    <span ng-repeat="x in [].constructor(5 - item.star) track by $index" class="fa fa-star"></span>
+                </div>
+                <div class="comment">{{item.comment}}</div>
+            </div>
+        </div>
+        <div class="add-comment">
+            <form ng-submit="addComment(name,starRating,IDselectedProduct,comment); comment = ''">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="dropdown">
+                                <img class="comment-icon" src="{{selectedIcon.icon}}" alt="">
+                                <i class="fa fa-sort-desc"></i>
+                                <span class="caret"></span>
+                                    <div class="dropdown-content">					
+                                        <img class="comment-icon" ng-repeat="item in comment_icon" src="{{item.icon}}" alt="" ng-click="changeIcon(item)">
+                                    </div>
+                            </div>
+                        </td>
+                        <td>
+                            <input type="text" name="" placeholder="Input Name..." class="add-comment-input" ng-Model="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="text" name="" placeholder="Input Comment..." class="add-comment-input" ng-Model="comment">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <div class="star-rating">
+                                <span ng-repeat="x in [].constructor(starRating) track by $index" class="fa fa-star checked" ng-click="rating($index + 1)"></span>
+                                <span ng-repeat="x in [].constructor(5 - starRating) track by $index" class="fa fa-star" ng-click="rating(starRating + $index + 1)"></span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Enter comment" class="add-comment-submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="collection.css">
+<div class="content">
+    <div ng-repeat="item in collection" class="collection" ng-id="{{'#' + item.id}}">
+        <img class="icon" src="{{item.icon}}" alt="">
+        <div class="description">
+            <div class="name">{{item.name}}</div>
+            <div class="detail"></div>
+            <span ng-repeat="product in productListCollection[item.id]" class="dropdown">
+                <img src="{{product.icon}}">
+                <div class="dropdown-content">
+                    <div><b>{{product.name}}</b></div>
+                    <div>{{product.desctiption0}} <a ng-href="{{'#!product?id=' + product.id}}" target="_blank">>>></a></div>
+                    
+                </div>
+            </span>
+        </div>
+    </div>
+</div>

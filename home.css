@@ -1,0 +1,32 @@
+.banner{
+	display: flex;
+	justify-content: center;
+}
+.banner .left{
+	background: #1313138c;
+	color: white;
+	top: 50%;
+	position: absolute;
+	left: 390px;
+	border: 0px solid black;
+	font-size: 16px;
+	font-weight: bold;
+}
+.banner .right{
+	background: #1313138c;
+	color: white;
+	top: 50%;
+	position: absolute;
+	right: 390px;
+	border: 0px solid black;
+	font-size: 16px;
+	font-weight: bold;
+}
+.banner button:hover{
+	background: black;
+	border-radius: 5px;
+}
+.banner img{
+	width: 750px;
+	height: 450px;
+}

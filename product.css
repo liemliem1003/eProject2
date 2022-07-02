@@ -1,0 +1,81 @@
+.product{
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+.product-name{
+    font-weight: bold;
+    
+}
+.product .fa-star{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.fa-star:hover{
+    animation: rotate_star 0.8s infinite;
+}
+@keyframes rotate_star {
+    100% {transform: rotate3d(0,1,0,360deg);}
+}  
+.checked{
+    color: #f9f94bc9;
+}
+.comment-list{
+    text-align: left;
+    margin-top: 30px;
+}
+.comment-item{
+    display: flex;
+    margin: 10px 30px;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+.comment-item:hover{
+	background: #bfb9c54f;
+}
+.comment-item img{
+    width: 40px;
+    height: 40px;
+	clip-path: circle();    
+}
+.comment-item-detail .fa-star{
+    font-size: 20px;
+
+}
+.comment-item-detail{
+    word-break: break-all;
+    margin-left: 20px;
+}
+.comment-item-detail.star-rating{
+    font-size: 10px;
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.comment-icon{
+    width: 40px;
+    height: 40px;
+	clip-path: circle(); 
+}
+.add-comment{
+	margin-left: 20px;
+}
+.add-comment .add-comment-input{
+	width: 600px;
+	padding: 5px;
+	border-radius: 5px;
+}
+.add-comment .fa-star{
+    font-size: 20px;
+}
+.add-comment .add-comment-submit{
+	padding: 7px;
+	border-radius: 5px;
+	border: 0px;
+	background: #2dae9d;
+}
+.add-comment-submit:hover{
+	background: #2d33ae;
+	color: white;
+}

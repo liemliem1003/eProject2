@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Index</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+	<link rel="stylesheet" href="Index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="IndexController.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+	<header id="header">
+		<div class="navigation">
+			<a href="#!home" title="">
+				<img class="logo" src="Images/logo2.jpg" alt="">
+			</a>
+			<span class="navigation-center">
+				<div class="dropdown">
+					<a href="#!stylist">Stylist</a>
+					<i class="fa fa-sort-desc"></i>
+  					<div class="dropdown-content">
+						<a ng-href="{{'#!stylist#' + item.id}}" ng-repeat="item in stylist">{{item.name}}<br></a>
+  					</div>
+				</div>
+				<div class="dropdown">
+					<a href="#!collection">Collection</a>
+					<i class="fa fa-sort-desc"></i>
+				    <span class="caret"></span>
+  					<div class="dropdown-content">
+						<a ng-href="{{'#!collection#' + item.id}}" ng-repeat="item in collection">{{item.name}}<br></a>
+  					</div>
+				</div>
+				<div><a href="#!comparison" title="">Comparison</a></div>
+				<div><a href="#!aboutus" title="">About Us</a></div>
+			</span>
+			<div class="navigation-right">
+				<div>Login</div>
+				<div class="dropdown">
+					<span>Language</span>
+					<i class="fa fa-sort-desc"></i>
+					<div class="dropdown-content">
+						<a href="">Vietnamese</a><i class="flag flag-vietnam"></i><br>
+						<a href="">English</a><br>					
+  					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="content" ng-view ></div>
+	<div class="footer">
+		<div class="footer-item">
+			<img src="Images/icon-freeship.png" alt="">
+			<div>Tran Van Nhi</div>
+			<div>Front-end Developer</div>
+			<div>Student1370237</div>
+		</div>
+		<div class="footer-item">
+			<img src="Images/icon-freeship.png" alt="">
+			<div>Ly Duc Hao</div>
+			<div>Front-end Developer</div>
+			<div>Student1368177</div>
+		</div>
+		<div class="footer-item">
+			<img src="Images/icon-freeship.png" alt="">
+			<div>Nguyen Hoai Nam</div>
+			<div>Front-end Developer</div>
+			<div>Student1371461</div>
+		</div>
+		<div class="footer-item">
+			<img src="Images/icon-freeship.png" alt="">
+			<div>Nguyen Tran Thanh Liem</div>
+			<div>Front-end Developer</div>
+			<div>Student1363639</div>
+		</div>
+	</div>
+</body>
+</html>

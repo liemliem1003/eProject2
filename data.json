@@ -1,0 +1,1033 @@
+{
+    "banner":[
+        "Images/banner/banner00.jpg",
+        "Images/banner/banner01.jpg",
+        "Images/banner/banner02.jpg",
+        "Images/banner/banner03.jpg"
+    ],
+    "product":[
+        {
+            "id" : 0,
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products1.jpg",
+            "desctiption0": "Được Trình diễn ở DuBai. ",
+            "desctiption1": "Hái mơ” được sinh ra trong mùa dịch nên quá trình hoàn thiện gặp rất nhiều khó khăn. Đây cũng là bộ sưu tập khác biệt từ ý niệm đến mục đích, khác từ chất liệu đến tính công phu... Vì thế, phải hơn 7 tháng, anh mới hoàn thành được 30 thiết kế. Trung bình, mỗi thiết kế cần tới 4 - 8 nhân công.",
+            "desctiption2": "Để giá trị văn hoá không xa lạ với giới trẻ, Lý Quí Khánh đã thổi làn gió xu hướng vào từng thiết kế của anh. Anh nhuộm màu, tận dụng thế mạnh về mix&match để hiện đại hơn chất liệu thổ cẩm nhưng vẫn bảo toàn giá trị nguyên bản là hoa văn. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 0
+        },
+        {
+            "id" : 1,
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products2.jpg",
+            "desctiption0": "Được Trình diễn ở DuBai. ",
+            "desctiption1": "Hái mơ” được sinh ra trong mùa dịch nên quá trình hoàn thiện gặp rất nhiều khó khăn. Đây cũng là bộ sưu tập khác biệt từ ý niệm đến mục đích, khác từ chất liệu đến tính công phu... Vì thế, phải hơn 7 tháng, anh mới hoàn thành được 30 thiết kế. Trung bình, mỗi thiết kế cần tới 4 - 8 nhân công.",
+            "desctiption2": "Để giá trị văn hoá không xa lạ với giới trẻ, Lý Quí Khánh đã thổi làn gió xu hướng vào từng thiết kế của anh. Anh nhuộm màu, tận dụng thế mạnh về mix&match để hiện đại hơn chất liệu thổ cẩm nhưng vẫn bảo toàn giá trị nguyên bản là hoa văn. ",
+            "star" : 2,
+            "stylist": 3,
+            "collection": 0
+        },
+        {
+            "id" : 2,
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products3.jpg",
+            "desctiption0": "Được Trình diễn ở DuBai. ",
+            "desctiption1": "Hái mơ” được sinh ra trong mùa dịch nên quá trình hoàn thiện gặp rất nhiều khó khăn. Đây cũng là bộ sưu tập khác biệt từ ý niệm đến mục đích, khác từ chất liệu đến tính công phu... Vì thế, phải hơn 7 tháng, anh mới hoàn thành được 30 thiết kế. Trung bình, mỗi thiết kế cần tới 4 - 8 nhân công.",
+            "desctiption2": "Để giá trị văn hoá không xa lạ với giới trẻ, Lý Quí Khánh đã thổi làn gió xu hướng vào từng thiết kế của anh. Anh nhuộm màu, tận dụng thế mạnh về mix&match để hiện đại hơn chất liệu thổ cẩm nhưng vẫn bảo toàn giá trị nguyên bản là hoa văn. ",
+            "star" : 3,
+            "stylist": 3,
+            "collection": 0
+        },
+        {
+            "id" : 3,
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products3.jpg",
+            "desctiption0": "Được Trình diễn ở DuBai.",
+            "desctiption1": "Hái mơ” được sinh ra trong mùa dịch nên quá trình hoàn thiện gặp rất nhiều khó khăn. Đây cũng là bộ sưu tập khác biệt từ ý niệm đến mục đích, khác từ chất liệu đến tính công phu... Vì thế, phải hơn 7 tháng, anh mới hoàn thành được 30 thiết kế. Trung bình, mỗi thiết kế cần tới 4 - 8 nhân công.",
+            "desctiption2": "Để giá trị văn hoá không xa lạ với giới trẻ, Lý Quí Khánh đã thổi làn gió xu hướng vào từng thiết kế của anh. Anh nhuộm màu, tận dụng thế mạnh về mix&match để hiện đại hơn chất liệu thổ cẩm nhưng vẫn bảo toàn giá trị nguyên bản là hoa văn. ",
+            "star" : 4,
+            "stylist": 3,
+            "collection": 0
+        },
+        {
+            "id" : 4,
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products4.jpg",
+            "desctiption0": "Được Trình diễn ở DuBai.",
+            "desctiption1": "Hái mơ” được sinh ra trong mùa dịch nên quá trình hoàn thiện gặp rất nhiều khó khăn. Đây cũng là bộ sưu tập khác biệt từ ý niệm đến mục đích, khác từ chất liệu đến tính công phu... Vì thế, phải hơn 7 tháng, anh mới hoàn thành được 30 thiết kế. Trung bình, mỗi thiết kế cần tới 4 - 8 nhân công.",
+            "desctiption2": "Để giá trị văn hoá không xa lạ với giới trẻ, Lý Quí Khánh đã thổi làn gió xu hướng vào từng thiết kế của anh. Anh nhuộm màu, tận dụng thế mạnh về mix&match để hiện đại hơn chất liệu thổ cẩm nhưng vẫn bảo toàn giá trị nguyên bản là hoa văn. ",
+            "star" : 5,
+            "stylist": 3,
+            "collection": 0
+        },
+        {
+            "id" : 5,
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products5.jpg",
+            "desctiption0": "Được Trình diễn ở DuBai.",
+            "desctiption1": "Hái mơ” được sinh ra trong mùa dịch nên quá trình hoàn thiện gặp rất nhiều khó khăn. Đây cũng là bộ sưu tập khác biệt từ ý niệm đến mục đích, khác từ chất liệu đến tính công phu... Vì thế, phải hơn 7 tháng, anh mới hoàn thành được 30 thiết kế. Trung bình, mỗi thiết kế cần tới 4 - 8 nhân công.",
+            "desctiption2": "Để giá trị văn hoá không xa lạ với giới trẻ, Lý Quí Khánh đã thổi làn gió xu hướng vào từng thiết kế của anh. Anh nhuộm màu, tận dụng thế mạnh về mix&match để hiện đại hơn chất liệu thổ cẩm nhưng vẫn bảo toàn giá trị nguyên bản là hoa văn. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 0
+        },
+        {
+            "id" : 6,
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products6.jpg",
+            "desctiption0": "Được Trình diễn ở DuBai.",
+            "desctiption1": "Hái mơ” được sinh ra trong mùa dịch nên quá trình hoàn thiện gặp rất nhiều khó khăn. Đây cũng là bộ sưu tập khác biệt từ ý niệm đến mục đích, khác từ chất liệu đến tính công phu... Vì thế, phải hơn 7 tháng, anh mới hoàn thành được 30 thiết kế. Trung bình, mỗi thiết kế cần tới 4 - 8 nhân công.",
+            "desctiption2": "Để giá trị văn hoá không xa lạ với giới trẻ, Lý Quí Khánh đã thổi làn gió xu hướng vào từng thiết kế của anh. Anh nhuộm màu, tận dụng thế mạnh về mix&match để hiện đại hơn chất liệu thổ cẩm nhưng vẫn bảo toàn giá trị nguyên bản là hoa văn. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 0
+        },
+        {
+            "id" : 7,
+            "name" : "Vẻ đẹp mùa hạ",
+            "icon" :"Images/Products/Products7.jpg",
+            "desctiption0": "Bộ sưu tập Feminism của Lý Quí Khánh.",
+            "desctiption1": "Trong không gian được thiết kế tựa một nhà hàng đêm lộng lẫy tại Gem Center, nhà thiết kế Lý Quí Khánh trình làng bộ sưu tập mới nhất mang tên gọi “Feminism Vẻ đẹp của Tự do” bứt phá hoàn toàn các giới hạn mà anh từng tạo ra trước đó.",
+            "desctiption2": "Sự chuyển mình này được xem là một nước cờ hợp lí về mặt thời điểm của Lý Quí Khánh. Bởi xét về mặt thực tế, các nhà mốt lớn trên thế giới cũng đang chuyển mình sản xuất các mẫu thiết kế ứng dụng; streets-wear; phụ kiện It-bag. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 1
+        },
+        {
+            "id" : 8,
+            "name" : "Vẻ đẹp mùa hạ",
+            "icon" :"Images/Products/Products8.jpg",
+            "desctiption0": "Bộ sưu tập Feminism của Lý Quí Khánh.",
+            "desctiption1": "Trong không gian được thiết kế tựa một nhà hàng đêm lộng lẫy tại Gem Center, nhà thiết kế Lý Quí Khánh trình làng bộ sưu tập mới nhất mang tên gọi “Feminism  Vẻ đẹp của Tự do” bứt phá hoàn toàn các giới hạn mà anh từng tạo ra trước đó.",
+            "desctiption2": "Sự chuyển mình này được xem là một nước cờ hợp lí về mặt thời điểm của Lý Quí Khánh. Bởi xét về mặt thực tế, các nhà mốt lớn trên thế giới cũng đang chuyển mình sản xuất các mẫu thiết kế ứng dụng; streets-wear; phụ kiện It-bag. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 1
+        },
+        {
+            "id" : 9,
+            "name" : "Vẻ đẹp mùa hạ",
+            "icon" :"Images/Products/Products9.jpg",
+            "desctiption0": "Bộ sưu tập Feminism của Lý Quí Khánh.",
+            "desctiption1": "Trong không gian được thiết kế tựa một nhà hàng đêm lộng lẫy tại Gem Center, nhà thiết kế Lý Quí Khánh trình làng bộ sưu tập mới nhất mang tên gọi “Feminism  Vẻ đẹp của Tự do” bứt phá hoàn toàn các giới hạn mà anh từng tạo ra trước đó.",
+            "desctiption2": "Sự chuyển mình này được xem là một nước cờ hợp lí về mặt thời điểm của Lý Quí Khánh. Bởi xét về mặt thực tế, các nhà mốt lớn trên thế giới cũng đang chuyển mình sản xuất các mẫu thiết kế ứng dụng; streets-wear; phụ kiện It-bag. ",
+            "star" : 1,
+            "stylist": 3, 
+            "collection": 1
+        },
+        {
+            "id" : 10,
+            "name" : "Vẻ đẹp mùa hạ",
+            "icon" :"Images/Products/Products10.jpg",
+            "desctiption0": "Bộ sưu tập Feminism của Lý Quí Khánh.",
+            "desctiption1": "Trong không gian được thiết kế tựa một nhà hàng đêm lộng lẫy tại Gem Center, nhà thiết kế Lý Quí Khánh trình làng bộ sưu tập mới nhất mang tên gọi “Feminism  Vẻ đẹp của Tự do” bứt phá hoàn toàn các giới hạn mà anh từng tạo ra trước đó.",
+            "desctiption2": "Sự chuyển mình này được xem là một nước cờ hợp lí về mặt thời điểm của Lý Quí Khánh. Bởi xét về mặt thực tế, các nhà mốt lớn trên thế giới cũng đang chuyển mình sản xuất các mẫu thiết kế ứng dụng; streets-wear; phụ kiện It-bag. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 1
+        },
+        {
+            "id" : 11,
+            "name" : "Vẻ đẹp mùa hạ",
+            "icon" :"Images/Products/Products11.jpg",
+            "desctiption0": "Bộ sưu tập Feminism của Lý Quí Khánh.",
+            "desctiption1": "Trong không gian được thiết kế tựa một nhà hàng đêm lộng lẫy tại Gem Center, nhà thiết kế Lý Quí Khánh trình làng bộ sưu tập mới nhất mang tên gọi “Feminism  Vẻ đẹp của Tự do” bứt phá hoàn toàn các giới hạn mà anh từng tạo ra trước đó.",
+            "desctiption2": "Sự chuyển mình này được xem là một nước cờ hợp lí về mặt thời điểm của Lý Quí Khánh. Bởi xét về mặt thực tế, các nhà mốt lớn trên thế giới cũng đang chuyển mình sản xuất các mẫu thiết kế ứng dụng; streets-wear; phụ kiện It-bag. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 1
+        },
+        {
+            "id" : 12,
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products12.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Lý Quí Khánh.",
+            "desctiption1": "Lý Quí Khánh chỉ ứng dụng một số mẫu hoạ tiết trung tính để trang phục dễ phối với nhau hơn. Xuyên suốt 120 mẫu thiết kế, Lý Quí Khánh dụng công vào việc xử lí màu sắc.",
+            "desctiption2": "Lý Quí Khánh lấy cảm hứng thiết kế từ chính hình dung của anh về những người phụ nữ hiện đại khao khát sự tự do. Đối với anh, tự do mới chính là vẻ đẹp bất diệt đối với người phụ nữ. Họ càng phá cách trong suy nghĩ, phóng khoáng trong cách làm đẹp, thành thật với mong muốn của bản thân, nắm quyền làm chủ trong cuộc sống thì càng toả sáng lộng lẫy. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 2
+        },
+        {
+            "id" : 13,
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products13.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Lý Quí Khánh.",
+            "desctiption1": "Lý Quí Khánh chỉ ứng dụng một số mẫu hoạ tiết trung tính để trang phục dễ phối với nhau hơn. Xuyên suốt 120 mẫu thiết kế, Lý Quí Khánh dụng công vào việc xử lí màu sắc.",
+            "desctiption2": "Lý Quí Khánh lấy cảm hứng thiết kế từ chính hình dung của anh về những người phụ nữ hiện đại khao khát sự tự do. Đối với anh, tự do mới chính là vẻ đẹp bất diệt đối với người phụ nữ. Họ càng phá cách trong suy nghĩ, phóng khoáng trong cách làm đẹp, thành thật với mong muốn của bản thân, nắm quyền làm chủ trong cuộc sống thì càng toả sáng lộng lẫy. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 2
+        },
+        {
+            "id" : 14,
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products14.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Lý Quí Khánh.",
+            "desctiption1": "Lý Quí Khánh chỉ ứng dụng một số mẫu hoạ tiết trung tính để trang phục dễ phối với nhau hơn. Xuyên suốt 120 mẫu thiết kế, Lý Quí Khánh dụng công vào việc xử lí màu sắc.",
+            "desctiption2": "Lý Quí Khánh lấy cảm hứng thiết kế từ chính hình dung của anh về những người phụ nữ hiện đại khao khát sự tự do. Đối với anh, tự do mới chính là vẻ đẹp bất diệt đối với người phụ nữ. Họ càng phá cách trong suy nghĩ, phóng khoáng trong cách làm đẹp, thành thật với mong muốn của bản thân, nắm quyền làm chủ trong cuộc sống thì càng toả sáng lộng lẫy. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 2
+        },
+        {
+            "id" : 15,
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products15.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Lý Quí Khánh.",
+            "desctiption1": "Lý Quí Khánh chỉ ứng dụng một số mẫu hoạ tiết trung tính để trang phục dễ phối với nhau hơn. Xuyên suốt 120 mẫu thiết kế, Lý Quí Khánh dụng công vào việc xử lí màu sắc.",
+            "desctiption2": "Lý Quí Khánh lấy cảm hứng thiết kế từ chính hình dung của anh về những người phụ nữ hiện đại khao khát sự tự do. Đối với anh, tự do mới chính là vẻ đẹp bất diệt đối với người phụ nữ. Họ càng phá cách trong suy nghĩ, phóng khoáng trong cách làm đẹp, thành thật với mong muốn của bản thân, nắm quyền làm chủ trong cuộc sống thì càng toả sáng lộng lẫy. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 2
+        },
+        {
+            "id" : 16,
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products16.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Lý Quí Khánh.",
+            "desctiption1": "Lý Quí Khánh chỉ ứng dụng một số mẫu hoạ tiết trung tính để trang phục dễ phối với nhau hơn. Xuyên suốt 120 mẫu thiết kế, Lý Quí Khánh dụng công vào việc xử lí màu sắc.",
+            "desctiption2": "Lý Quí Khánh lấy cảm hứng thiết kế từ chính hình dung của anh về những người phụ nữ hiện đại khao khát sự tự do. Đối với anh, tự do mới chính là vẻ đẹp bất diệt đối với người phụ nữ. Họ càng phá cách trong suy nghĩ, phóng khoáng trong cách làm đẹp, thành thật với mong muốn của bản thân, nắm quyền làm chủ trong cuộc sống thì càng toả sáng lộng lẫy. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 2
+        },
+        {
+            "id" : 17,
+            "name" : "Vẻ đẹp mùa Đông",
+            "icon" :"Images/Products/Products17.jpg",
+            "desctiption0": "Bộ sưu tập mùa Đông của Lý Quí Khánh.",
+            "desctiption1": "Lý Quí Khánh chỉ ứng dụng một số mẫu hoạ tiết trung tính để trang phục phù hợp với khí hậu Việt Nam.",
+            "desctiption2": "Lý Quí Khánh lấy cảm hứng từ những bộ áo dài Việt Nam để tạo ra những trang phục mùa đông phù hợp với thời tiết khí hậu tại Việt Nam. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 3
+        },
+        {
+            "id" : 18,
+            "name" : "Vẻ đẹp mùa Đông",
+            "icon" :"Images/Products/Products18.jpg",
+            "desctiption0": "Bộ sưu tập mùa Đông của Lý Quí Khánh.",
+            "desctiption1": "Lý Quí Khánh chỉ ứng dụng một số mẫu hoạ tiết trung tính để trang phục phù hợp với khí hậu Việt Nam.",
+            "desctiption2": "Lý Quí Khánh lấy cảm hứng từ những bộ áo dài Việt Nam để tạo ra những trang phục mùa đông phù hợp với thời tiết khí hậu tại Việt Nam. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 3
+        },
+        {
+            "id" : 19,
+            "name" : "Vẻ đẹp mùa Đông",
+            "icon" :"Images/Products/Products9.jpg",
+            "desctiption0": "Bộ sưu tập mùa Đông của Lý Quí Khánh.",
+            "desctiption1": "Lý Quí Khánh chỉ ứng dụng một số mẫu hoạ tiết trung tính để trang phục phù hợp với khí hậu Việt Nam.",
+            "desctiption2": "Lý Quí Khánh lấy cảm hứng từ những bộ áo dài Việt Nam để tạo ra những trang phục mùa đông phù hợp với thời tiết khí hậu tại Việt Nam. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 3
+        },
+        {
+            "id" : 20,
+            "name" : "Vẻ đẹp mùa Đông",
+            "icon" :"Images/Products/Products20.jpg",
+            "desctiption0": "Bộ sưu tập mùa Đông của Lý Quí Khánh.",
+            "desctiption1": "Lý Quí Khánh chỉ ứng dụng một số mẫu hoạ tiết trung tính để trang phục phù hợp với khí hậu Việt Nam.",
+            "desctiption2": "Lý Quí Khánh lấy cảm hứng từ những bộ áo dài Việt Nam để tạo ra những trang phục mùa đông phù hợp với thời tiết khí hậu tại Việt Nam. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 3
+        },
+        {
+            "id" : 21,
+            "name" : "Vẻ đẹp mùa Đông",
+            "icon" :"Images/Products/Products21.jpg",
+            "desctiption0": "Bộ sưu tập mùa Đông của Lý Quí Khánh.",
+            "desctiption1": "Lý Quí Khánh chỉ ứng dụng một số mẫu hoạ tiết trung tính để trang phục phù hợp với khí hậu Việt Nam.",
+            "desctiption2": "Lý Quí Khánh lấy cảm hứng từ những bộ áo dài Việt Nam để tạo ra những trang phục mùa đông phù hợp với thời tiết khí hậu tại Việt Nam. ",
+            "star" : 1,
+            "stylist": 3,
+            "collection": 3
+        },
+        {
+            "id" : 22,
+            "name" : "Vẻ đẹp mùa Xuân",
+            "icon" :"Images/Products/Products22.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến chỉ ứng dụng một số mẫu hoạ tiết năng đông để trang phục phù hợp ngày tết cổ truyền.",
+            "desctiption2": "Cao Minh TIến lấy cảm hứng từ những bộ áo dài Việt Nam để tạo ra những trang phục mùa xuân phù hợp với phong tục kết hợp giữa cổ điển và hiện tại. ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 0
+        },
+        {
+            "id" : 23,
+            "name" : "Vẻ đẹp mùa Xuân",
+            "icon" :"Images/Products/Products23.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến chỉ ứng dụng một số mẫu hoạ tiết năng đông để trang phục phù hợp ngày tết cổ truyền.",
+            "desctiption2": "Cao Minh TIến lấy cảm hứng từ những bộ áo dài Việt Nam để tạo ra những trang phục mùa xuân phù hợp với phong tục kết hợp giữa cổ điển và hiện tại. ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 0
+        },
+        {
+            "id" : 24,
+            "name" : "Vẻ đẹp mùa Xuân",
+            "icon" :"Images/Products/Products24.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến chỉ ứng dụng một số mẫu hoạ tiết năng đông để trang phục phù hợp ngày tết cổ truyền.",
+            "desctiption2": "Cao Minh TIến lấy cảm hứng từ những bộ áo dài Việt Nam để tạo ra những trang phục mùa xuân phù hợp với phong tục kết hợp giữa cổ điển và hiện tại. ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 0
+        },
+        {
+            "id" : 25,
+            "name" : "Vẻ đẹp mùa Xuân",
+            "icon" :"Images/Products/Products25.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến chỉ ứng dụng một số mẫu hoạ tiết năng đông để trang phục phù hợp ngày tết cổ truyền.",
+            "desctiption2": "Cao Minh TIến lấy cảm hứng từ những bộ áo dài Việt Nam để tạo ra những trang phục mùa xuân phù hợp với phong tục kết hợp giữa cổ điển và hiện tại. ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 0
+        },
+        {
+            "id" : 26,
+            "name" : "Vẻ đẹp mùa Hạ",
+            "icon" :"Images/Products/Products26.jpg",
+            "desctiption0": "Bộ sưu tập mùa hạ của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến sử dụng những hoạt tiết năng động cho mọi lứa tuổi đều có thể mặc được.",
+            "desctiption2": "Cao Minh tiến sử dụng chủ yếu những chất liệu có nguồn gốc tự nhiên, thân thiện với môi trường như lụa, vải làm từ sợi bông, sợi đay.  ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 1
+        },
+        {
+            "id" : 27,
+            "name" : "Vẻ đẹp mùa Hạ",
+            "icon" :"Images/Products/Products27.jpg",
+            "desctiption0": "Bộ sưu tập mùa hạ của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến sử dụng những hoạt tiết năng động cho mọi lứa tuổi đều có thể mặc được.",
+            "desctiption2": "Cao Minh tiến sử dụng chủ yếu những chất liệu có nguồn gốc tự nhiên, thân thiện với môi trường như lụa, vải làm từ sợi bông, sợi đay.  ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 1
+        },
+        {
+            "id" : 28,
+            "name" : "Vẻ đẹp mùa Hạ",
+            "icon" :"Images/Products/Products28.jpg",
+            "desctiption0": "Bộ sưu tập mùa hạ của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến sử dụng những hoạt tiết năng động cho mọi lứa tuổi đều có thể mặc được.",
+            "desctiption2": "Cao Minh tiến sử dụng chủ yếu những chất liệu có nguồn gốc tự nhiên, thân thiện với môi trường như lụa, vải làm từ sợi bông, sợi đay.  ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 1
+        },
+        {
+            "id" : 29,
+            "name" : "Vẻ đẹp mùa Hạ",
+            "icon" :"Images/Products/Products29.jpg",
+            "desctiption0": "Bộ sưu tập mùa hạ của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến sử dụng những hoạt tiết năng động cho mọi lứa tuổi đều có thể mặc được.",
+            "desctiption2": "Cao Minh tiến sử dụng chủ yếu những chất liệu có nguồn gốc tự nhiên, thân thiện với môi trường như lụa, vải làm từ sợi bông, sợi đay.  ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 1
+        },
+        {
+            "id" : 30,
+            "name" : "Vẻ đẹp mùa Hạ",
+            "icon" :"Images/Products/Products30.jpg",
+            "desctiption0": "Bộ sưu tập mùa hạ của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến sử dụng những hoạt tiết năng động cho mọi lứa tuổi đều có thể mặc được.",
+            "desctiption2": "Cao Minh tiến sử dụng chủ yếu những chất liệu có nguồn gốc tự nhiên, thân thiện với môi trường như lụa, vải làm từ sợi bông, sợi đay.  ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 1
+        },
+        {
+            "id" : 31, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products31.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến sử dụng gam màu hồng pastel cho bộ sưu tập Xuân thu .",
+            "desctiption2": "Cao Minh tiến Trang phục tập trung khai thác kiểu dáng xếp tầng va họa tiết nơ trẻ trung cho giới nữ.  ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 2
+        },
+        {
+            "id" : 32, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products32.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến sử dụng gam màu hồng pastel cho bộ sưu tập Xuân thu .",
+            "desctiption2": "Cao Minh tiến Trang phục tập trung khai thác kiểu dáng xếp tầng va họa tiết nơ trẻ trung cho giới nữ.  ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 2
+        },
+        {
+            "id" : 33, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products33.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến sử dụng gam màu hồng pastel cho bộ sưu tập Xuân thu .",
+            "desctiption2": "Cao Minh tiến Trang phục tập trung khai thác kiểu dáng xếp tầng va họa tiết nơ trẻ trung cho giới nữ.  ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 2
+        },
+        {
+            "id" : 34, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products34.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến sử dụng gam màu hồng pastel cho bộ sưu tập Xuân thu .",
+            "desctiption2": "Cao Minh tiến Trang phục tập trung khai thác kiểu dáng xếp tầng va họa tiết nơ trẻ trung cho giới nữ.  ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 2
+        },
+        {
+            "id" : 35, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products35.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh TIến sử dụng gam màu hồng pastel cho bộ sưu tập Xuân thu .",
+            "desctiption2": "Cao Minh tiến Trang phục tập trung khai thác kiểu dáng xếp tầng va họa tiết nơ trẻ trung cho giới nữ.  ",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 2
+        },
+        {
+            "id" : 36, 
+            "name" : "Vẻ đẹp mùa đông",
+            "icon" :"Images/Products/Products36.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh Tiến, nhà thiết kế đến từ Hà Nội mang đến chương trình bộ sưu tập lấy cảm hứng từ những khu rừng mùa đông, phảng phất nét u buồn, thoáng chút không khí ảm đạm.",
+            "desctiption2": "Cao Minh Tiến sử dụng phương pháp dựng 3D đang thịnh hành để tạo ra những kiểu dáng mới, cầu kỳ và độc đáo cho bộ sưu tập.",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 3
+        },
+        {
+            "id" : 37, 
+            "name" : "Vẻ đẹp mùa đông",
+            "icon" :"Images/Products/Products37.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh Tiến, nhà thiết kế đến từ Hà Nội mang đến chương trình bộ sưu tập lấy cảm hứng từ những khu rừng mùa đông, phảng phất nét u buồn, thoáng chút không khí ảm đạm.",
+            "desctiption2": "Cao Minh Tiến sử dụng phương pháp dựng 3D đang thịnh hành để tạo ra những kiểu dáng mới, cầu kỳ và độc đáo cho bộ sưu tập.",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 3
+        },
+        {
+            "id" : 38, 
+            "name" : "Vẻ đẹp mùa đông",
+            "icon" :"Images/Products/Products38.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh Tiến, nhà thiết kế đến từ Hà Nội mang đến chương trình bộ sưu tập lấy cảm hứng từ những khu rừng mùa đông, phảng phất nét u buồn, thoáng chút không khí ảm đạm.",
+            "desctiption2": "Cao Minh Tiến sử dụng phương pháp dựng 3D đang thịnh hành để tạo ra những kiểu dáng mới, cầu kỳ và độc đáo cho bộ sưu tập.",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 3
+        },
+        {
+            "id" : 39, 
+            "name" : "Vẻ đẹp mùa đông",
+            "icon" :"Images/Products/Products39.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh Tiến, nhà thiết kế đến từ Hà Nội mang đến chương trình bộ sưu tập lấy cảm hứng từ những khu rừng mùa đông, phảng phất nét u buồn, thoáng chút không khí ảm đạm.",
+            "desctiption2": "Cao Minh Tiến sử dụng phương pháp dựng 3D đang thịnh hành để tạo ra những kiểu dáng mới, cầu kỳ và độc đáo cho bộ sưu tập.",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 3
+        },
+        {
+            "id" : 40, 
+            "name" : "Vẻ đẹp mùa đông",
+            "icon" :"Images/Products/Products40.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Cao Minh Tiến.",
+            "desctiption1": "Cao Minh Tiến, nhà thiết kế đến từ Hà Nội mang đến chương trình bộ sưu tập lấy cảm hứng từ những khu rừng mùa đông, phảng phất nét u buồn, thoáng chút không khí ảm đạm.",
+            "desctiption2": "Cao Minh Tiến sử dụng phương pháp dựng 3D đang thịnh hành để tạo ra những kiểu dáng mới, cầu kỳ và độc đáo cho bộ sưu tập.",
+            "star" : 1,
+            "stylist": 0,
+            "collection": 3
+        },
+        {
+            "id" : 41, 
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products41.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Công Trí cho ra mắt bộ sưu tập Resort giới thiệu các thiết kế dự tiệc mùa xuân sắc trắng tinh khôi và sang trọng. ",
+            "desctiption2": "Sắc trắng làm chủ đạo tạo nên vẻ lịch thiệp, nhẹ nhàng và tinh tế.  Các chi tiết như lông vũ, kết hạt, khoá kéo... được may tỉ mỉ trở thành điểm nhấn thú vị cho set đồ.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 0
+        },
+        {
+            "id" : 42, 
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products42.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Công Trí cho ra mắt bộ sưu tập Resort giới thiệu các thiết kế dự tiệc mùa xuân sắc trắng tinh khôi và sang trọng. ",
+            "desctiption2": "Sắc trắng làm chủ đạo tạo nên vẻ lịch thiệp, nhẹ nhàng và tinh tế.  Các chi tiết như lông vũ, kết hạt, khoá kéo... được may tỉ mỉ trở thành điểm nhấn thú vị cho set đồ.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 0
+        },
+        {
+            "id" : 43, 
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products43.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Công Trí cho ra mắt bộ sưu tập Resort giới thiệu các thiết kế dự tiệc mùa xuân sắc trắng tinh khôi và sang trọng. ",
+            "desctiption2": "Sắc trắng làm chủ đạo tạo nên vẻ lịch thiệp, nhẹ nhàng và tinh tế.  Các chi tiết như lông vũ, kết hạt, khoá kéo... được may tỉ mỉ trở thành điểm nhấn thú vị cho set đồ.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 0
+        },
+        {
+            "id" : 44, 
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products44.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Công Trí cho ra mắt bộ sưu tập Resort giới thiệu các thiết kế dự tiệc mùa xuân sắc trắng tinh khôi và sang trọng. ",
+            "desctiption2": "Sắc trắng làm chủ đạo tạo nên vẻ lịch thiệp, nhẹ nhàng và tinh tế.  Các chi tiết như lông vũ, kết hạt, khoá kéo... được may tỉ mỉ trở thành điểm nhấn thú vị cho set đồ.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 0
+        },
+        {
+            "id" : 45, 
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products45.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Công Trí cho ra mắt bộ sưu tập Resort giới thiệu các thiết kế dự tiệc mùa xuân sắc trắng tinh khôi và sang trọng. ",
+            "desctiption2": "Sắc trắng làm chủ đạo tạo nên vẻ lịch thiệp, nhẹ nhàng và tinh tế.  Các chi tiết như lông vũ, kết hạt, khoá kéo... được may tỉ mỉ trở thành điểm nhấn thú vị cho set đồ.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 0
+        },
+        {
+            "id" : 46, 
+            "name" : "Vẻ đẹp mùa hạ",
+            "icon" :"Images/Products/Products46.jpg",
+            "desctiption0": "Bộ sưu tập mùa hạ của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Nguyễn Công Trí giới thiệu bộ sưu tập thời trang cho mùa hạ với các chất liệu thoáng mát, phom dáng lạ mắt mà dễ mặc. ",
+            "desctiption2": "CONG TRI Summer Capsule khai thác những phom dáng cơ bản của thời trang, nhưng tập trung vào các chi tiết cắt may tinh xảo là thế mạnh của nhà mốt. Tính ứng dụng được cân bằng với những chi tiết đậm tính chất thời trang của một sàn diễn runway.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 1
+        },
+        {
+            "id" : 47, 
+            "name" : "Vẻ đẹp mùa hạ",
+            "icon" :"Images/Products/Products47.jpg",
+            "desctiption0": "Bộ sưu tập mùa hạ của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Nguyễn Công Trí giới thiệu bộ sưu tập thời trang cho mùa hạ với các chất liệu thoáng mát, phom dáng lạ mắt mà dễ mặc. ",
+            "desctiption2": "CONG TRI Summer Capsule khai thác những phom dáng cơ bản của thời trang, nhưng tập trung vào các chi tiết cắt may tinh xảo là thế mạnh của nhà mốt. Tính ứng dụng được cân bằng với những chi tiết đậm tính chất thời trang của một sàn diễn runway.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 1
+        },
+        {
+            "id" : 48, 
+            "name" : "Vẻ đẹp mùa hạ",
+            "icon" :"Images/Products/Products48.jpg",
+            "desctiption0": "Bộ sưu tập mùa hạ của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Nguyễn Công Trí giới thiệu bộ sưu tập thời trang cho mùa hạ với các chất liệu thoáng mát, phom dáng lạ mắt mà dễ mặc. ",
+            "desctiption2": "CONG TRI Summer Capsule khai thác những phom dáng cơ bản của thời trang, nhưng tập trung vào các chi tiết cắt may tinh xảo là thế mạnh của nhà mốt. Tính ứng dụng được cân bằng với những chi tiết đậm tính chất thời trang của một sàn diễn runway.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 1
+        },
+        {
+            "id" : 49, 
+            "name" : "Vẻ đẹp mùa hạ",
+            "icon" :"Images/Products/Products49.jpg",
+            "desctiption0": "Bộ sưu tập mùa hạ của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Nguyễn Công Trí giới thiệu bộ sưu tập thời trang cho mùa hạ với các chất liệu thoáng mát, phom dáng lạ mắt mà dễ mặc. ",
+            "desctiption2": "CONG TRI Summer Capsule khai thác những phom dáng cơ bản của thời trang, nhưng tập trung vào các chi tiết cắt may tinh xảo là thế mạnh của nhà mốt. Tính ứng dụng được cân bằng với những chi tiết đậm tính chất thời trang của một sàn diễn runway.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 1
+        },
+        {
+            "id" : 50, 
+            "name" : "Vẻ đẹp mùa hạ",
+            "icon" :"Images/Products/Products50.jpg",
+            "desctiption0": "Bộ sưu tập mùa hạ của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Nguyễn Công Trí giới thiệu bộ sưu tập thời trang cho mùa hạ với các chất liệu thoáng mát, phom dáng lạ mắt mà dễ mặc. ",
+            "desctiption2": "CONG TRI Summer Capsule khai thác những phom dáng cơ bản của thời trang, nhưng tập trung vào các chi tiết cắt may tinh xảo là thế mạnh của nhà mốt. Tính ứng dụng được cân bằng với những chi tiết đậm tính chất thời trang của một sàn diễn runway.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 1
+        },
+        {
+            "id" : 51, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products51.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Công Trí chia sẻ hình ảnh về bộ sưu tập Lúa của mình trên mạng ngay sau buổi diễn khai mạc Tokyo Fashion Week . ",
+            "desctiption2": "Nói về bộ sưu tập của mình, nhà thiết kế (NTK) Công Trí cho biết anh phát huy tối đa thế mạnh về kĩ thuật đan lát thủ công các sợi chất liệu to bản để phác hoạ không khí của vùng thôn quê Việt Nam.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 2
+        },
+        {
+            "id" : 52, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products52.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Công Trí chia sẻ hình ảnh về bộ sưu tập Lúa của mình trên mạng ngay sau buổi diễn khai mạc Tokyo Fashion Week . ",
+            "desctiption2": "Nói về bộ sưu tập của mình, nhà thiết kế (NTK) Công Trí cho biết anh phát huy tối đa thế mạnh về kĩ thuật đan lát thủ công các sợi chất liệu to bản để phác hoạ không khí của vùng thôn quê Việt Nam.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 2
+        },
+        {
+            "id" : 53, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products53.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Công Trí chia sẻ hình ảnh về bộ sưu tập Lúa của mình trên mạng ngay sau buổi diễn khai mạc Tokyo Fashion Week . ",
+            "desctiption2": "Nói về bộ sưu tập của mình, nhà thiết kế (NTK) Công Trí cho biết anh phát huy tối đa thế mạnh về kĩ thuật đan lát thủ công các sợi chất liệu to bản để phác hoạ không khí của vùng thôn quê Việt Nam.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 2
+        },
+        {
+            "id" : 54, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products54.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Công Trí chia sẻ hình ảnh về bộ sưu tập Lúa của mình trên mạng ngay sau buổi diễn khai mạc Tokyo Fashion Week . ",
+            "desctiption2": "Nói về bộ sưu tập của mình, nhà thiết kế (NTK) Công Trí cho biết anh phát huy tối đa thế mạnh về kĩ thuật đan lát thủ công các sợi chất liệu to bản để phác hoạ không khí của vùng thôn quê Việt Nam.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 2
+        },
+        {
+            "id" : 55, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products55.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Nguyên Công Trí.",
+            "desctiption1": "Nhà thiết kế Công Trí chia sẻ hình ảnh về bộ sưu tập Lúa của mình trên mạng ngay sau buổi diễn khai mạc Tokyo Fashion Week . ",
+            "desctiption2": "Nói về bộ sưu tập của mình, nhà thiết kế (NTK) Công Trí cho biết anh phát huy tối đa thế mạnh về kĩ thuật đan lát thủ công các sợi chất liệu to bản để phác hoạ không khí của vùng thôn quê Việt Nam.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 2
+        },    
+        {
+            "id" : 56, 
+            "name" : "Vẻ đẹp mùa đông",
+            "icon" :"Images/Products/Products56.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Nguyên Công Trí.",
+            "desctiption1": "Sau ba tháng miệt mài sáng tạo, Công Trí đã giới thiệu 20 bộ trang phục ấn tượng và bay bổng từ chất liệu tổng hợp và kỹ thuật cắt ghép trên tông màu vàng da. ",
+            "desctiption2": "Với tông trang điểm ánh bạc, người mẫu khoác lên mình dáng vẻ huyền bí như trong truyện cổ tích và bước ra đời thường từ không gian mùa đông huyền ảo.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 3
+        },
+        {
+            "id" : 57, 
+            "name" : "Vẻ đẹp mùa đông",
+            "icon" :"Images/Products/Products57.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Nguyên Công Trí.",
+            "desctiption1": "Sau ba tháng miệt mài sáng tạo, Công Trí đã giới thiệu 20 bộ trang phục ấn tượng và bay bổng từ chất liệu tổng hợp và kỹ thuật cắt ghép trên tông màu vàng da. ",
+            "desctiption2": "Với tông trang điểm ánh bạc, người mẫu khoác lên mình dáng vẻ huyền bí như trong truyện cổ tích và bước ra đời thường từ không gian mùa đông huyền ảo.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 3
+        },
+        {
+            "id" : 58, 
+            "name" : "Vẻ đẹp mùa đông",
+            "icon" :"Images/Products/Products58.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Nguyên Công Trí.",
+            "desctiption1": "Sau ba tháng miệt mài sáng tạo, Công Trí đã giới thiệu 20 bộ trang phục ấn tượng và bay bổng từ chất liệu tổng hợp và kỹ thuật cắt ghép trên tông màu vàng da. ",
+            "desctiption2": "Với tông trang điểm ánh bạc, người mẫu khoác lên mình dáng vẻ huyền bí như trong truyện cổ tích và bước ra đời thường từ không gian mùa đông huyền ảo.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 3
+        },
+        {
+            "id" : 59, 
+            "name" : "Vẻ đẹp mùa đông",
+            "icon" :"Images/Products/Products59.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Nguyên Công Trí.",
+            "desctiption1": "Sau ba tháng miệt mài sáng tạo, Công Trí đã giới thiệu 20 bộ trang phục ấn tượng và bay bổng từ chất liệu tổng hợp và kỹ thuật cắt ghép trên tông màu vàng da. ",
+            "desctiption2": "Với tông trang điểm ánh bạc, người mẫu khoác lên mình dáng vẻ huyền bí như trong truyện cổ tích và bước ra đời thường từ không gian mùa đông huyền ảo.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 3
+        },
+        {
+            "id" : 60, 
+            "name" : "Vẻ đẹp mùa đông",
+            "icon" :"Images/Products/Products60.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Nguyên Công Trí.",
+            "desctiption1": "Sau ba tháng miệt mài sáng tạo, Công Trí đã giới thiệu 20 bộ trang phục ấn tượng và bay bổng từ chất liệu tổng hợp và kỹ thuật cắt ghép trên tông màu vàng da. ",
+            "desctiption2": "Với tông trang điểm ánh bạc, người mẫu khoác lên mình dáng vẻ huyền bí như trong truyện cổ tích và bước ra đời thường từ không gian mùa đông huyền ảo.",
+            "star" : 1,
+            "stylist": 1,
+            "collection": 3
+        },
+        {
+            "id" : 61, 
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products61.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Quỳnh Paris.",
+            "desctiption1": "Những bộ trang phục ấn tượng nhất Tuần lễ thời trang Xuân Hè của Quỳnh Paris. ",
+            "desctiption2": "Với tông trang điểm sắc sở, người mẫu khoác lên mình dáng vẻ huyền bí  và bước ra đời thường từ không gian mùa xuân huyền ảo.",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 0
+        },
+        {
+            "id" : 62, 
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products62.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Quỳnh Paris.",
+            "desctiption1": "Những bộ trang phục ấn tượng nhất Tuần lễ thời trang Xuân Hè của Quỳnh Paris. ",
+            "desctiption2": "Với tông trang điểm sắc sở, người mẫu khoác lên mình dáng vẻ huyền bí  và bước ra đời thường từ không gian mùa xuân huyền ảo.",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 0
+        },
+        {
+            "id" : 63, 
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products63.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Quỳnh Paris.",
+            "desctiption1": "Những bộ trang phục ấn tượng nhất Tuần lễ thời trang Xuân Hè của Quỳnh Paris. ",
+            "desctiption2": "Với tông trang điểm sắc sở, người mẫu khoác lên mình dáng vẻ huyền bí  và bước ra đời thường từ không gian mùa xuân huyền ảo.",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 0
+        },
+        {
+            "id" : 64, 
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products64.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Quỳnh Paris.",
+            "desctiption1": "Những bộ trang phục ấn tượng nhất Tuần lễ thời trang Xuân Hè của Quỳnh Paris. ",
+            "desctiption2": "Với tông trang điểm sắc sở, người mẫu khoác lên mình dáng vẻ huyền bí  và bước ra đời thường từ không gian mùa xuân huyền ảo.",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 0
+        },
+        {
+            "id" : 65, 
+            "name" : "Vẻ đẹp mùa xuân",
+            "icon" :"Images/Products/Products65.jpg",
+            "desctiption0": "Bộ sưu tập mùa xuân của Quỳnh Paris.",
+            "desctiption1": "Những bộ trang phục ấn tượng nhất Tuần lễ thời trang Xuân Hè của Quỳnh Paris. ",
+            "desctiption2": "Với tông trang điểm sắc sở, người mẫu khoác lên mình dáng vẻ huyền bí  và bước ra đời thường từ không gian mùa xuân huyền ảo.",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 0
+        },
+        {
+            "id" : 66, 
+            "name" : "Vẻ đẹp mùa hè",
+            "icon" :"Images/Products/Products66.jpg",
+            "desctiption0": "Bộ sưu tập mùa hè của Quỳnh Paris.",
+            "desctiption1": "Nhà thiết kế Quỳnh Paris và bộ sưu tập Ánh sáng của các vì sao. ",
+            "desctiption2": "Hình ảnh đó được trình bày qua các màu sắc, chất liệu và các nét chấm phá, cắt may điêu luyện của chị cho từng mẫu thiết kế.",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 1
+        },
+        {
+            "id" : 67, 
+            "name" : "Vẻ đẹp mùa hè",
+            "icon" :"Images/Products/Products67.jpg",
+            "desctiption0": "Bộ sưu tập mùa hè của Quỳnh Paris.",
+            "desctiption1": "Nhà thiết kế Quỳnh Paris và bộ sưu tập Ánh sáng của các vì sao. ",
+            "desctiption2": "Hình ảnh đó được trình bày qua các màu sắc, chất liệu và các nét chấm phá, cắt may điêu luyện của chị cho từng mẫu thiết kế.",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 1
+        },
+        {
+            "id" : 68, 
+            "name" : "Vẻ đẹp mùa hè",
+            "icon" :"Images/Products/Products68.jpg",
+            "desctiption0": "Bộ sưu tập mùa hè của Quỳnh Paris.",
+            "desctiption1": "Nhà thiết kế Quỳnh Paris và bộ sưu tập Ánh sáng của các vì sao. ",
+            "desctiption2": "Hình ảnh đó được trình bày qua các màu sắc, chất liệu và các nét chấm phá, cắt may điêu luyện của chị cho từng mẫu thiết kế.",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 1
+        },
+        {
+            "id" : 69, 
+            "name" : "Vẻ đẹp mùa hè",
+            "icon" :"Images/Products/Products69.jpg",
+            "desctiption0": "Bộ sưu tập mùa hè của Quỳnh Paris.",
+            "desctiption1": "Nhà thiết kế Quỳnh Paris và bộ sưu tập Ánh sáng của các vì sao. ",
+            "desctiption2": "Hình ảnh đó được trình bày qua các màu sắc, chất liệu và các nét chấm phá, cắt may điêu luyện của chị cho từng mẫu thiết kế.",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 1
+        },
+        {
+            "id" : 70, 
+            "name" : "Vẻ đẹp mùa hè",
+            "icon" :"Images/Products/Products70.jpg",
+            "desctiption0": "Bộ sưu tập mùa hè của Quỳnh Paris.",
+            "desctiption1": "Nhà thiết kế Quỳnh Paris và bộ sưu tập Ánh sáng của các vì sao. ",
+            "desctiption2": "Hình ảnh đó được trình bày qua các màu sắc, chất liệu và các nét chấm phá, cắt may điêu luyện của chị cho từng mẫu thiết kế.",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 1
+        },
+        {
+            "id" : 71, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products71.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Quỳnh Paris.",
+            "desctiption1": "Bên cạnh những chiếc váy mang tính ứng dụng cao cho mùa thu, bộ sưu tập của nhà thiết kế Quỳnh Paris còn có cả những thiết kế đầy nổi loạn. ",
+            "desctiption2": "Họa tiết lạ mắt được đắp nổi một bên thân áo tạo sự phá cách. Chất liệu lụa làm cho đuôi váy mềm mại và thanh thoát hơn..",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 2
+        },
+        {
+            "id" : 72, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products72.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Quỳnh Paris.",
+            "desctiption1": "Bên cạnh những chiếc váy mang tính ứng dụng cao cho mùa thu, bộ sưu tập của nhà thiết kế Quỳnh Paris còn có cả những thiết kế đầy nổi loạn. ",
+            "desctiption2": "Họa tiết lạ mắt được đắp nổi một bên thân áo tạo sự phá cách. Chất liệu lụa làm cho đuôi váy mềm mại và thanh thoát hơn..",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 2
+        },
+        {
+            "id" : 73, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products73.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Quỳnh Paris.",
+            "desctiption1": "Bên cạnh những chiếc váy mang tính ứng dụng cao cho mùa thu, bộ sưu tập của nhà thiết kế Quỳnh Paris còn có cả những thiết kế đầy nổi loạn. ",
+            "desctiption2": "Họa tiết lạ mắt được đắp nổi một bên thân áo tạo sự phá cách. Chất liệu lụa làm cho đuôi váy mềm mại và thanh thoát hơn..",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 2
+        },
+        {
+            "id" : 74, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products74.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Quỳnh Paris.",
+            "desctiption1": "Bên cạnh những chiếc váy mang tính ứng dụng cao cho mùa thu, bộ sưu tập của nhà thiết kế Quỳnh Paris còn có cả những thiết kế đầy nổi loạn. ",
+            "desctiption2": "Họa tiết lạ mắt được đắp nổi một bên thân áo tạo sự phá cách. Chất liệu lụa làm cho đuôi váy mềm mại và thanh thoát hơn..",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 2
+        },
+        {
+            "id" : 75, 
+            "name" : "Vẻ đẹp mùa thu",
+            "icon" :"Images/Products/Products75.jpg",
+            "desctiption0": "Bộ sưu tập mùa thu của Quỳnh Paris.",
+            "desctiption1": "Bên cạnh những chiếc váy mang tính ứng dụng cao cho mùa thu, bộ sưu tập của nhà thiết kế Quỳnh Paris còn có cả những thiết kế đầy nổi loạn. ",
+            "desctiption2": "Họa tiết lạ mắt được đắp nổi một bên thân áo tạo sự phá cách. Chất liệu lụa làm cho đuôi váy mềm mại và thanh thoát hơn..",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 2
+        },
+        {
+            "id" : 76, 
+            "name" : "Vẻ đẹp mùa Đông",
+            "icon" :"Images/Products/Products76.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Quỳnh Paris.",
+            "desctiption1": "Bộ sưu tập mang tên Passion- Đam mê ",
+            "desctiption2": "Tông màu chủ yếu sẽ là đỏ,xanh , xanh nước biển,...cùng với chất liệu như lụa, voan, nhẹ nhàng, sang trọng",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 3
+        },
+        {
+            "id" : 77, 
+            "name" : "Vẻ đẹp mùa Đông",
+            "icon" :"Images/Products/Products77.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Quỳnh Paris.",
+            "desctiption1": "Bộ sưu tập mang tên Passion- Đam mê ",
+            "desctiption2": "Tông màu chủ yếu sẽ là đỏ,xanh , xanh nước biển,...cùng với chất liệu như lụa, voan, nhẹ nhàng, sang trọng",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 3
+        },
+        {
+            "id" : 78, 
+            "name" : "Vẻ đẹp mùa Đông",
+            "icon" :"Images/Products/Products78.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Quỳnh Paris.",
+            "desctiption1": "Bộ sưu tập mang tên Passion- Đam mê ",
+            "desctiption2": "Tông màu chủ yếu sẽ là đỏ,xanh , xanh nước biển,...cùng với chất liệu như lụa, voan, nhẹ nhàng, sang trọng",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 3
+        },
+        {
+            "id" : 79, 
+            "name" : "Vẻ đẹp mùa Đông",
+            "icon" :"Images/Products/Products79.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Quỳnh Paris.",
+            "desctiption1": "Bộ sưu tập mang tên Passion- Đam mê ",
+            "desctiption2": "Tông màu chủ yếu sẽ là đỏ,xanh , xanh nước biển,...cùng với chất liệu như lụa, voan, nhẹ nhàng, sang trọng",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 3
+        },
+        {
+            "id" : 80, 
+            "name" : "Vẻ đẹp mùa Đông",
+            "icon" :"Images/Products/Products80.jpg",
+            "desctiption0": "Bộ sưu tập mùa đông của Quỳnh Paris.",
+            "desctiption1": "Bộ sưu tập mang tên Passion- Đam mê ",
+            "desctiption2": "Tông màu chủ yếu sẽ là đỏ,xanh , xanh nước biển,...cùng với chất liệu như lụa, voan, nhẹ nhàng, sang trọng",
+            "star" : 1,
+            "stylist": 2,
+            "collection": 3
+        }
+    ],
+    "comment":[
+        {
+            "id": 0,
+            "icon":"Images/comment/comment0.jpg",
+            "name":"Nguyen Tran Thanh Liem",
+            "star": 1,
+            "productid": 3,
+            "comment": "bộ đồ thật là phong các và đẹp "
+        },
+        {
+            "id": 1,
+            "icon":"Images/comment/comment1.jpg",
+            "name":"Tran Van Nhi",
+            "star": 2,
+            "productid": 3,
+            "comment": "Tôi là con trai nhìn mà còn muốn mặc lên nữa mà"
+        },
+        {
+            "id": 2,
+            "icon":"Images/comment/comment2.jpg",
+            "name":"Nguyen Hoai Nam",
+            "star": 3,
+            "productid": 3,
+            "comment": "Thật là lịch lãm và phong cách stylist quá là chuyên nghiệp "
+        },
+        {
+            "id": 3,
+            "icon":"Images/comment/comment3.jpg",
+            "name":"Ly Duc Hao",
+            "star": 4,
+            "productid": 3,
+            "comment": "nhà thiết kế có suy nghĩ quá độc đáo, tay nghề điêu luyện, cống hiến hết mình cho nghệ thuật thời trang, cảm ơn các nhà thiết kế rất nhiều "
+        }
+    ],
+    "comment_icon" : [
+        {
+            "id": 0,
+            "icon":"Images/comment/comment0.jpg"
+        },
+        {
+            "id": 1,
+            "icon":"Images/comment/comment1.jpg"
+        },
+        {
+            "id": 2,
+            "icon":"Images/comment/comment2.jpg"
+        },
+        {
+            "id": 3,
+            "icon":"Images/comment/comment3.jpg"
+        },
+        {
+            "id": 4,
+            "icon":"Images/comment/comment4.jpg"
+        },
+        {
+            "id": 5,
+            "icon":"Images/comment/comment5.jpg"
+        },
+        {
+            "id": 6,
+            "icon":"Images/comment/comment6.jpg"
+        },
+        {
+            "id": 7,
+            "icon":"Images/comment/comment7.jpg"
+        },
+        {
+            "id": 8,
+            "icon":"Images/comment/comment8.jpg"
+        },
+        {
+            "id": 9,
+            "icon":"Images/comment/comment9.jpg"
+        },
+        {
+            "id": 10,
+            "icon":"Images/comment/comment10.jpg"
+        },
+        {
+            "id": 11,
+            "icon":"Images/comment/comment11.jpg"
+        }
+    ],
+    "stylist" :[
+        {
+            "id":0,
+            "name":"Cao Minh Tiến",
+            "description":"kjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;lk;lkl",
+            "icon":"Images/stylist/stylist0.jpg"
+        },
+        {
+            "id":1,
+            "name":"Nguyễn Công Trí",
+            "description":"kjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;lk;lkl",
+            "icon":"Images/stylist/stylist1.jpg"
+        },
+        {
+            "id":2,
+            "name":"Quỳnh Paris",
+            "description":"kjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;lk;lkl",
+            "icon":"Images/stylist/stylist2.jpg"
+        },
+        {
+            "id":3,
+            "name":"Lý Quý Khánh",
+            "description":"kjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;lk;lkl",
+            "icon":"Images/stylist/stylist3.jpg"
+        }
+    ],
+    "collection" :[
+        {
+            "id":0,
+            "name": "Sping",
+            "icon": "Images/collection/collection0.jpg"
+        },
+        {
+            "id":1,
+            "name": "Summer",
+            "icon": "Images/collection/collection1.jpg"
+        },
+        {
+            "id":2,
+            "name": "Fall",
+            "icon": "Images/collection/collection2.jpg"
+        },
+        {
+            "id":0,
+            "name": "Winter",
+            "icon": "Images/collection/collection3.jpg"
+        }
+    ]
+}
