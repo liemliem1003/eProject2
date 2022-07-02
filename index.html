@@ -52,23 +52,27 @@
 		<i class="fa fa-times" aria-hidden="true" ng-click="showPopupLogin()"></i>
 		<form ng-submit="login(username,password)">
 			<table>
+				<center>
+					<img class="logo" src="Images/logo2.jpg" alt="">
+					<h2>Welcome</h2>
+				</center>
 				<tr>
-					<td>Username</td>
+					<td align="right"><b>Username</b></td>
 					<td><input type="text" ng-model="username" placeholder="Input username"></td>
 				</tr>
 				<tr>
-					<td>Password</td>
+					<td align="right"><b>Password</b></td>
 					<td><input type="password" ng-model="password" placeholder="Input password"></td>
 				</tr>
 				<tr>
-					<td>Name</td>
+					<td align="right"><b>Name</b></td>
 					<td><input type="text" ng-model="name" placeholder="Require for new account"></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>
 						<button type="submit">Sign In</button>
-						<input type="button" ng-click="signup(username,password,name)" value="Sign Up">
+						<button type="button" ng-click="signup(username,password,name)" value="Sign Up">Sign Up</button>
 					</td>
 				</tr>
 			</table>

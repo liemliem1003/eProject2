@@ -66,11 +66,8 @@ header{
 }
 .content{
 	margin: auto;
-	/* width: 80%; */
 	background: #E3DEC1;
-	
 }
-
 .footer{
 	display: flex;
 	justify-content: center;
@@ -89,17 +86,36 @@ header{
 	font-weight: bold;
 	background: #E89F65;
 }
-
 .loginpanel{
+	border: 3px solid black;
+	border-radius: 5px;
 	position: absolute;
 	z-index: 10;	
 	top: 28%;
-	left: 28%;
-	background: #cce0d4;	
-
+	left: 30%;
+	background: #ece1a0;	
+}
+.loginpanel h2{
+	margin: 0px;
 }
 .loginpanel table{
-	padding: 120px 200px;
+	padding: 50px 150px;
+}
+.loginpanel input{
+	width: 200px;
+	height: 25px;
+}
+.loginpanel button{
+	width: 80px;
+	height: 25px;
+	border-radius: 5px;
+	border: 0px;
+    font-weight: bold;
+    color: white;
+	background: #B94629;
+}
+.loginpanel button:hover{
+	background: #E89F65;
 }
 .show{
 	display: block;

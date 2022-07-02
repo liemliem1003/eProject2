@@ -116,11 +116,14 @@ app.controller('myCtrl',function($scope, $http){
     $scope.showPopupLogin = function(){
         $scope.PopupLogin = !$scope.PopupLogin
     }
+    var namecheck = /^[a-zA-Z]\w{7,11}$/
     $scope.login = function(user,pass){
         if(user == "" || user == undefined){
             alert("Username can not be blank")
-        }else if(pass =="" || pass == undefined){
-            alert("Password can not be blank")
+        }else if(!namecheck.test(user)){
+            alert("Username star with a alphabet character, length is 8-12 and doesn't contain Special characters")
+        }else if(pass == undefined || pass.length < 6 || pass.length > 12){
+            alert("Password has length between 6 to 12 character")
         }else{
             var check = false;
             for (let i = 0; i < $scope.data.account.length; i++) {
@@ -140,8 +143,10 @@ app.controller('myCtrl',function($scope, $http){
     $scope.signup = function(user,pass,name){
         if(user == "" || user == undefined){
             alert("Username can not be blank")
-        }else if(pass =="" || pass == undefined){
-            alert("Password can not be blank")
+        }else if(!namecheck.test(user)){
+            alert("Username star with a alphabet character, length is 8-12 and doesn't contain Special characters")
+        }else if(pass == undefined || pass.length < 6 || pass.length > 12){
+            alert("Password has length between 6 to 12 character")
         }else if(name =="" || name == undefined){
             alert("Name can not be blank")
         }else{
@@ -164,7 +169,6 @@ app.controller('myCtrl',function($scope, $http){
                 alert("Username has existed")
             }
         }
-        console.log($scope.data.account);
     }
     $scope.googlemap = 'http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q={{Property.Address.Location.Latitude}},{{Property.Address.Location.Longitude}}&amp;output=embed'
 });
