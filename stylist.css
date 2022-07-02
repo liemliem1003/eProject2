@@ -1,9 +1,20 @@
 .stylist{
 	justify-content: center;
 	display: flex;
-    margin-top: 30px;
 }
+.stylist:hover{
+	background: #E89F65;
+}
+.stylist a{
+	color: black;
+	font-weight: bold;
+}
+.stylist a:hover{
+	color: #B94629;
+}
+
 .stylist img{
+	padding: 10px 0px;
 	width: 200px;
     height: 200px;
 	clip-path: circle();

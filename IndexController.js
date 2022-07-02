@@ -110,6 +110,62 @@ app.controller('myCtrl',function($scope, $http){
     $scope.changeIcon = function(icon){
         $scope.selectedIcon = icon
     }
+
+    $scope.PopupLogin = false;
+
+    $scope.showPopupLogin = function(){
+        $scope.PopupLogin = !$scope.PopupLogin
+    }
+    $scope.login = function(user,pass){
+        if(user == "" || user == undefined){
+            alert("Username can not be blank")
+        }else if(pass =="" || pass == undefined){
+            alert("Password can not be blank")
+        }else{
+            var check = false;
+            for (let i = 0; i < $scope.data.account.length; i++) {
+                if(user == $scope.data.account[i].user && pass == $scope.data.account[i].pass){
+                    $scope.PopupLogin = false; 
+                    check = true;
+                    break
+                }
+            }
+            if(check){
+                alert("Sign in success")
+            }else{
+                alert("Username or Password is wrong")
+            }
+        }
+    }
+    $scope.signup = function(user,pass,name){
+        if(user == "" || user == undefined){
+            alert("Username can not be blank")
+        }else if(pass =="" || pass == undefined){
+            alert("Password can not be blank")
+        }else if(name =="" || name == undefined){
+            alert("Name can not be blank")
+        }else{
+            var check = true;
+            for (let i = 0; i < $scope.data.account.length; i++) {
+                if(user == $scope.data.account[i].user){
+                    check = false;
+                    break
+                }
+            }
+            if(check){
+                $scope.data.account[$scope.data.account.length] = {
+                    "name": name,
+                    "user": user,
+                    "pass": pass
+                }
+                localStorage.setItem("data", JSON.stringify($scope.data));
+                alert("Sign up success")
+            }else{
+                alert("Username has existed")
+            }
+        }
+        console.log($scope.data.account);
+    }
     $scope.googlemap = 'http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q={{Property.Address.Location.Latitude}},{{Property.Address.Location.Longitude}}&amp;output=embed'
 });
 

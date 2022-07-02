@@ -1,6 +1,9 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="home.css">
 <div class="banner">
-    <button type="" class="left" ng-click="changeImage(false)">Previous</button>
     <img src="{{currentImg}}" >
-    <button type="" class="right" ng-click="changeImage(true)">Next</button>
+    <div class="button-group">
+        <button ng-click="changeImage(false)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>
+        <button ng-click="changeImage(true)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+    </div>
 </div>

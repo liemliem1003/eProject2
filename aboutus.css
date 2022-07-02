@@ -8,6 +8,9 @@
     height: 200px;
 	clip-path: circle();
 }
+.aboutus:hover{
+	background: #bfb9c54f;
+}
 .aboutus .description{
 	width: 600px;
 	margin: 30px 0px 0px 30px;

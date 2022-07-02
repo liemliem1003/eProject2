@@ -1,18 +1,13 @@
-table{
+.comparisontable{
 	border-collapse: collapse;
 }
-td{
-	word-break: break-all;
-}
+
 .icon{
     width: 100px;
     height: 100px;
 }
 .desctiption{
     word-break: break-all;
-}
-tr{
-	border-bottom: 1px solid white;
 }
 .fa-star{
     font-size: 40px;
@@ -21,15 +16,15 @@ tr{
 .checked{
     color: #f9f94bc9;
 }
-td{
-	width: 280px;
+.comparisontable td{
+	width: 20%;
+	word-break: break-all;
 	text-align: center;
-	margin: 0px;
 }
-td img{
+.comparisontable td img{
 	width: 250px;
 	height: 400px;
 }
-tbody tr:hover{
+.comparisontable tbody tr:hover{
 	background: #bfb9c54f;
 }

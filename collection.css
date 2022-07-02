@@ -1,7 +1,17 @@
 .collection{
 	justify-content: center;
 	display: flex;
-    margin-top: 30px;
+	padding: 10px 0px;
+}
+.collection:hover{
+	background: #E89F65;
+}
+.collection a{
+	font-weight: bold;
+	color: black;
+}
+.collection a:hover{
+	color: #B94629;
 }
 .icon{
 	width: 200px;
@@ -34,7 +44,7 @@ span img{
  display: none;
  text-align: left;
  position: absolute;
- background-color: #f9f9f9;
+ background-color: #E3DEC1;
  border: 2px solid black;
  border-radius: 9px;
  min-width: 160px;

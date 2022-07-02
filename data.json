@@ -1029,5 +1029,27 @@
             "name": "Winter",
             "icon": "Images/collection/collection3.jpg"
         }
+    ],
+    "account":[
+        {
+            "name": "Thanh Liem",
+            "user": "liemnguyen",
+            "pass": "asd123"
+        },
+        {
+            "name": "Duc Hao",
+            "user": "haoly1",
+            "pass": "asd123"
+        },
+        {
+            "name":"Van Nhi",
+            "user": "nhitran",
+            "pass": "asd123"
+        },
+        {
+            "name": "Hoai Nam",
+            "user": "namnguyen",
+            "pass": "asd123"
+        }
     ]
 }

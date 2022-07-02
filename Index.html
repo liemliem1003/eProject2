@@ -36,7 +36,7 @@
 				<div><a href="#!aboutus" title="">About Us</a></div>
 			</span>
 			<div class="navigation-right">
-				<div>Login</div>
+				<div ng-click="showPopupLogin()">Login</div>
 				<div class="dropdown">
 					<span>Language</span>
 					<i class="fa fa-sort-desc"></i>
@@ -48,30 +48,52 @@
 			</div>
 		</div>
 	</header>
+	<div class="loginpanel {{PopupLogin ? 'show' : 'unshow'}}">
+		<i class="fa fa-times" aria-hidden="true" ng-click="showPopupLogin()"></i>
+		<form ng-submit="login(username,password)">
+			<table>
+				<tr>
+					<td>Username</td>
+					<td><input type="text" ng-model="username" placeholder="Input username"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" ng-model="password" placeholder="Input password"></td>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td><input type="text" ng-model="name" placeholder="Require for new account"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<button type="submit">Sign In</button>
+						<input type="button" ng-click="signup(username,password,name)" value="Sign Up">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
 	<div class="content" ng-view ></div>
 	<div class="footer">
 		<div class="footer-item">
-			<img src="Images/icon-freeship.png" alt="">
-			<div>Tran Van Nhi</div>
-			<div>Front-end Developer</div>
+			<img src="Images/aboutus/aboutus2.jpg" alt="">
+			<div>Nhi Tran</div>
 			<div>Student1370237</div>
 		</div>
 		<div class="footer-item">
-			<img src="Images/icon-freeship.png" alt="">
-			<div>Ly Duc Hao</div>
-			<div>Front-end Developer</div>
+			<img src="Images/aboutus/aboutus1.jpg" alt="">
+			<div>Hao Ly</div>
 			<div>Student1368177</div>
 		</div>
 		<div class="footer-item">
-			<img src="Images/icon-freeship.png" alt="">
-			<div>Nguyen Hoai Nam</div>
-			<div>Front-end Developer</div>
+			<img src="Images/aboutus/aboutus3.jpg" alt="">
+			<div>Nam Nguyen</div>
 			<div>Student1371461</div>
 		</div>
 		<div class="footer-item">
-			<img src="Images/icon-freeship.png" alt="">
-			<div>Nguyen Tran Thanh Liem</div>
-			<div>Front-end Developer</div>
+			<img src="Images/aboutus/aboutus0.jpg" alt="">
+			<div>Liem Nguyen</div>
 			<div>Student1363639</div>
 		</div>
 	</div>
