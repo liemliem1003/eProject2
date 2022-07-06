@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="stylist_detail.css">
+<div>
+    <center style="width: 80%; margin:auto;">
+        <div class="stylist_name">{{selectedStylist.name}}</div>
+        <img class="stylis_img" src="{{selectedStylist.icon}}" alt="">
+        <p>{{selectedStylist.description}}</p>
+        <p>{{selectedStylist.description1}}</p>
+        <p>{{selectedStylist.description2}}</p>
+        <p>{{selectedStylist.description3}}</p>
+        <p>{{selectedStylist.description4}}</p>
+        <div class="stylist_detail_product_list">
+            <a class="stylist_detail_product" ng-repeat="item in productListStylist[IDselectedStylist]" ng-href="{{'#!product?id=' + item.id}}" target="_blank">
+                <img src="{{item.icon}}" alt="">
+            </a>
+        </div>
+    </center>
+</div>

@@ -10,6 +10,9 @@ app.config(function($routeProvider){
     .when("/aboutus", {
         templateUrl : "aboutus.html"
     })
+    .when("/stylist_detail", {
+        templateUrl : "stylist_detail.html"
+    })
     .when("/collection", {
         templateUrl : "collection.html"
     })
@@ -35,8 +38,10 @@ app.controller('myCtrl',function($scope, $http){
             else{
                 $scope.data= JSON.parse(localStorage.getItem("data"));
             }
-            location.hash.split("=")[1] == undefined ? $scope.IDselectedProduct = 0 : $scope.IDselectedProduct = location.hash.split("=")[1];
+            location.hash.split("product?id=")[1] == undefined ? $scope.IDselectedProduct = 0 : $scope.IDselectedProduct = location.hash.split("=")[1];
             $scope.selectedProduct = $scope.data.product[$scope.IDselectedProduct];
+            location.hash.split("stylist_detail?id=")[1] == undefined ? $scope.IDselectedStylist = 0 : $scope.IDselectedStylist = location.hash.split("=")[1];
+            $scope.selectedStylist = $scope.data.stylist[$scope.IDselectedStylist];
             $scope.commentlist = [];
             $scope.comment_icon = $scope.data.comment_icon;
             $scope.selectedIcon = $scope.comment_icon[0]
@@ -47,6 +52,26 @@ app.controller('myCtrl',function($scope, $http){
             }
             $scope.stylist = $scope.data.stylist;
             $scope.collection = $scope.data.collection;
+
+            $scope.stylist1 = []
+            $scope.stylist2 = []
+            $scope.stylist3 = []
+            $scope.stylist4 = []
+
+            for (let i = 0; i < $scope.data.product.length; i++) {
+                var item = $scope.data.product[i];
+                item.collection == 0 ? $scope.stylist1[$scope.stylist1.length] = item : true
+                item.collection == 1 ? $scope.stylist2[$scope.stylist2.length] = item : true
+                item.collection == 2 ? $scope.stylist3[$scope.stylist3.length] = item : true
+                item.collection == 3 ? $scope.stylist4[$scope.stylist4.length] = item : true
+            }
+
+            $scope.productListStylist = [
+                $scope.stylist1,
+                $scope.stylist2,
+                $scope.stylist3,
+                $scope.stylist4
+            ]
 
             $scope.springList = []
             $scope.summerList = []
@@ -86,6 +111,7 @@ app.controller('myCtrl',function($scope, $http){
     }
 
     $scope.IDselectedProduct = 0;
+    $scope.IDselectedStylist = 0;
 
     $scope.starRating = 5;
     $scope.rating = function(star){

@@ -1,0 +1,16 @@
+.stylist_name{
+    font-weight: bold;
+    padding: 20px;
+    font-size: 25px;
+}
+.stylis_img{
+    width: 380px;
+}
+.stylist_detail_product img{
+    width: 100px;
+    height: 100px;
+	clip-path: circle();
+}
+.stylist_detail_product_list{
+    width: 80%;
+}
