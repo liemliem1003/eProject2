@@ -1,4 +1,5 @@
 Group: No.6
+Project title: Stylist
 Member:
  - Tran Van Nhi: Student1370237
  - Nguyen Tran Thanh Liem: Student1363639
