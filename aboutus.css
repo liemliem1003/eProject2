@@ -6,7 +6,6 @@
 .icon{
 	width: 200px;
     height: 200px;
-	clip-path: circle();
 }
 .aboutus:hover{
 	background: #E89F65;

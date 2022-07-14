@@ -31,18 +31,18 @@
 	height: 400px;
 }
 .comparisontable tbody tr:hover{
-	background: #E89F65;
+	background: #DFDCE3;
 }
 .comparisontable td a{
 	color: black;
 	font-weight: bold;
 }
 .comparisontable td a:hover{
-	color: #B94629;
+	color: blue;
 }
 select{
 	padding: 5px 0px;
-	background: #E89F65;
+	background-color: #d7f4f0;
 	border: 1px solid #E89F65;
 }
 select *:hover{

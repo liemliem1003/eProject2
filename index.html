@@ -17,23 +17,10 @@
 				<img class="logo" src="Images/logo2.jpg" alt="">
 			</a>
 			<span class="navigation-center">
-				<div class="dropdown">
-					<a href="#!stylist">Stylist</a>
-					<i class="fa fa-sort-desc"></i>
-  					<div class="dropdown-content">
-						<a ng-href="{{'#!stylist#' + item.id}}" ng-repeat="item in stylist">{{item.name}}<br></a>
-  					</div>
-				</div>
-				<div class="dropdown">
-					<a href="#!collection">Collection</a>
-					<i class="fa fa-sort-desc"></i>
-				    <span class="caret"></span>
-  					<div class="dropdown-content">
-						<a ng-href="{{'#!collection#' + item.id}}" ng-repeat="item in collection">{{item.name}}<br></a>
-  					</div>
-				</div>
-				<div><a href="#!comparison" title="">Comparison</a></div>
-				<div><a href="#!aboutus" title="">About Us</a></div>
+				<a href="#!stylist">Stylist</a>
+				<a href="#!collection">Collection</a>
+				<a href="#!comparison" title="">Comparison</a>
+				<a href="#!aboutus" title="">About Us</a>
 			</span>
 			<div class="navigation-right">
 				<div ng-click="showPopupLogin()">Login</div>
@@ -80,26 +67,24 @@
 	</div>
 	<div class="content" ng-view ></div>
 	<div class="footer">
-		<div class="footer-item">
-			<img src="Images/aboutus/aboutus2.jpg" alt="">
-			<div>Nhi Tran</div>
-			<div>Student1370237</div>
-		</div>
-		<div class="footer-item">
-			<img src="Images/aboutus/aboutus1.jpg" alt="">
-			<div>Hao Ly</div>
-			<div>Student1368177</div>
-		</div>
-		<div class="footer-item">
-			<img src="Images/aboutus/aboutus3.jpg" alt="">
-			<div>Nam Nguyen</div>
-			<div>Student1371461</div>
-		</div>
-		<div class="footer-item">
-			<img src="Images/aboutus/aboutus0.jpg" alt="">
-			<div>Liem Nguyen</div>
-			<div>Student1363639</div>
-		</div>
+		<a href="#">
+			<i class="fa fa-facebook-official" aria-hidden="true"></i>
+		</a>
+		<a href="#">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+		</a>
+		<a href="#">
+			<i class="fa fa-twitter-square" aria-hidden="true"></i>
+		</a>
+		<a href="#">
+			<i class="fa fa-youtube-play" aria-hidden="true"></i>
+		</a>		
+		<a href="#">
+			<i class="fa fa-linkedin" aria-hidden="true"></i>
+		</a>
+		<a href="#">
+			
+		</a>
 	</div>
 </body>
 </html>

@@ -3,14 +3,14 @@
 	display: flex;
 }
 .stylist:hover{
-	background: #E89F65;
+	background: #DFDCE3;
 }
 .stylist a{
 	color: black;
 	font-weight: bold;
 }
 .stylist a:hover{
-	color: #B94629;
+	color: blue;
 }
 
 .stylist img{
