@@ -68,9 +68,16 @@ header{
 	margin: auto;
 }
 .footer{
-	display: flex;
-	justify-content: center;
 	background: #4ABDAC;
+	display: grid;
+	justify-content: center;
+}
+.footer-icon{
+	justify-content: right;
+
+}
+.footer-copy_left{
+	justify-content: left;
 }
 .footer a{
 	margin: 0px 10px;

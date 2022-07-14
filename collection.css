@@ -16,7 +16,6 @@
 .icon{
 	width: 200px;
     height: 200px;
-	clip-path: circle();
 }
 .collection .description{
 	width: 600px;

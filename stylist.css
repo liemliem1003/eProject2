@@ -17,7 +17,6 @@
 	padding: 10px 0px;
 	width: 200px;
     height: 200px;
-	clip-path: circle();
 }
 .stylist .description{
 	width: 600px;
