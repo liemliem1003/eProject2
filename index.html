@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Index</title>
+	<title>Stylist</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 	<link rel="stylesheet" href="Index.css">
@@ -17,19 +17,19 @@
 				<img class="logo" src="Images/logo2.jpg" alt="">
 			</a>
 			<span class="navigation-center">
-				<a href="#!stylist">Stylist</a>
-				<a href="#!collection">Collection</a>
-				<a href="#!comparison" title="">Comparison</a>
-				<a href="#!aboutus" title="">About Us</a>
+				<a href="#!stylist">{{data.freetext.header.stylist}}</a>
+				<a href="#!collection">{{data.freetext.header.collection}}</a>
+				<a href="#!comparison" title="">{{data.freetext.header.comparison}}</a>
+				<a href="#!aboutus" title="">{{data.freetext.header.aboutus}}</a>
 			</span>
 			<div class="navigation-right">
-				<div ng-click="showPopupLogin()">Login</div>
+				<div ng-click="showPopupLogin()">{{data.freetext.header.login}}</div>
 				<div class="dropdown">
-					<span>Language</span>
+					<span>{{data.freetext.header.language}}</span>
 					<i class="fa fa-sort-desc"></i>
 					<div class="dropdown-content">
-						<a href="">Vietnamese</a><i class="flag flag-vietnam"></i><br>
-						<a href="">English</a><br>					
+						<a href="" ng-click="translate('vn')">Vietnamese</a><br>
+						<a href="" ng-click="translate('en')">English</a><br>					
   					</div>
 				</div>
 			</div>
@@ -41,25 +41,25 @@
 			<table>
 				<center>
 					<img class="logo" src="Images/logo2.jpg" alt="">
-					<h2>Welcome</h2>
+					<h2>{{data.freetext.loginpanel.welcome}}</h2>
 				</center>
 				<tr>
-					<td align="right"><b>Username</b></td>
+					<td align="right"><b>{{data.freetext.loginpanel.user}}</b></td>
 					<td><input type="text" ng-model="username" placeholder="Input username"></td>
 				</tr>
 				<tr>
-					<td align="right"><b>Password</b></td>
+					<td align="right"><b>{{data.freetext.loginpanel.pass}}</b></td>
 					<td><input type="password" ng-model="password" placeholder="Input password"></td>
 				</tr>
 				<tr>
-					<td align="right"><b>Name</b></td>
+					<td align="right"><b>{{data.freetext.loginpanel.name}}</b></td>
 					<td><input type="text" ng-model="name" placeholder="Require for new account"></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>
-						<button type="submit">Sign In</button>
-						<button type="button" ng-click="signup(username,password,name)" value="Sign Up">Sign Up</button>
+						<button type="submit">{{data.freetext.loginpanel.signinbtn}}</button>
+						<button type="button" ng-click="signup(username,password,name)" value="Sign Up">{{data.freetext.loginpanel.signupbtn}}</button>
 					</td>
 				</tr>
 			</table>

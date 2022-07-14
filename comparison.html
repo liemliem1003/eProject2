@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="comparison.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="title">
-    <center>Select products to compare</center>
+    <center>{{data.freetext.comparison.pagename}}</center>
 </div>
 <table class="comparisontable">
     <thead>
@@ -9,25 +9,25 @@
             <th></th>
             <th>
                 <select ng-Model="select0">
-                    <option value="">No</option>
+                    <option value="">{{data.freetext.comparison.no}}</option>
                     <option ng-repeat="item in data.product" value="{{item.id}}">{{item.name + " (" + item.id + ")"}}</option>
                 </select>
             </th>
             <th>
                 <select ng-Model="select1">
-                    <option value="">No</option>
+                    <option value="">{{data.freetext.comparison.no}}</option>
                     <option ng-repeat="item in data.product" value="{{item.id}}">{{item.name + " (" + item.id + ")"}}</option>
                 </select>
             </th>
             <th>
                 <select ng-Model="select2">
-                    <option value="">No</option>
+                    <option value="">{{data.freetext.comparison.no}}</option>
                     <option ng-repeat="item in data.product" value="{{item.id}}">{{item.name + " (" + item.id + ")"}}</option>
                 </select>
             </th>
             <th>
                 <select ng-Model="select3">
-                    <option value="">No</option>
+                    <option value="">{{data.freetext.comparison.no}}</option>
                     <option ng-repeat="item in data.product" value="{{item.id}}">{{item.name + " (" + item.id + ")"}}</option>
                 </select>
             </th>
@@ -35,28 +35,28 @@
     </thead>
     <tbody>
         <tr>
-            <td width="280px">Name</td>
+            <td width="280px">{{data.freetext.comparison.name}}</td>
             <th width="280px">{{data.product[select0].name}}</th>
             <th width="280px">{{data.product[select1].name}}</th>
             <th width="280px">{{data.product[select2].name}}</th>
             <th width="280px">{{data.product[select3].name}}</th>
         </tr>
         <tr>
-            <td>Description</td>
+            <td>{{data.freetext.comparison.description}}</td>
             <td>{{data.product[select0].desctiption0}}</td>
             <td>{{data.product[select1].desctiption0}}</td>
             <td>{{data.product[select2].desctiption0}}</td>
             <td>{{data.product[select3].desctiption0}}</td>
         </tr>
         <tr>
-            <td>Stylist</td>
+            <td>{{data.freetext.comparison.stylist}}</td>
             <td>{{stylist[data.product[select0].stylist].name}}</td>
             <td>{{stylist[data.product[select1].stylist].name}}</td>
             <td>{{stylist[data.product[select2].stylist].name}}</td>
             <td>{{stylist[data.product[select3].stylist].name}}</td>
         </tr>
         <tr>
-            <td>Collection</td>
+            <td>{{data.freetext.comparison.collection}}</td>
             <td>{{collection[data.product[select0].collection].name}}</td>
             <td>{{collection[data.product[select1].collection].name}}</td>
             <td>{{collection[data.product[select2].collection].name}}</td>
@@ -64,7 +64,7 @@
 
         </tr>
         <tr>
-            <td>Rating</td>
+            <td>{{data.freetext.comparison.rating}}</td>
             <td>
                 <span ng-repeat="x in [].constructor(data.product[select0].star == NaN ? 0 : data.product[select0].star) track by $index" class="fa fa-star checked"></span>
                 <span ng-repeat="x in [].constructor(data.product[select0].star == NaN ? 0 : (5 - data.product[select0].star)) track by $index" class="fa fa-star"></span>
@@ -83,14 +83,14 @@
             </td>
         </tr>
         <tr>
-            <td>Image</td>
+            <td>{{data.freetext.comparison.image}}</td>
             <td><img src="{{data.product[select0].icon != null ? data.product[select0].icon : 'Images/Products/sellectproduct.jpg'}}"></td>
             <td><img src="{{data.product[select1].icon != null ? data.product[select1].icon : 'Images/Products/sellectproduct.jpg'}}"></td>
             <td><img src="{{data.product[select2].icon != null ? data.product[select2].icon : 'Images/Products/sellectproduct.jpg'}}"></td>
             <td><img src="{{data.product[select3].icon != null ? data.product[select3].icon : 'Images/Products/sellectproduct.jpg'}}"></td>
         </tr>
         <tr>
-            <td>Go to</td>
+            <td>{{data.freetext.comparison.goto}}</td>
             <td>
                 <a ng-href="{{'#!product?id=' + data.product[select0].id}}" target="_blank">{{data.product[select0].id != undefined ? data.product[select0].name + ' page' : ''}}</a>
             </td>

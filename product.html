@@ -17,7 +17,7 @@
         </div>
     </div>
     <div class="comment-list">
-        <b>COMMENTS</b>
+        <b>{{data.freetext.product.comment}}</b>
         <div class="comment-item" ng-repeat="item in commentlist">
             <img src="{{item.icon}}" alt="">
             <div class="comment-item-detail">
@@ -44,12 +44,12 @@
                             </div>
                         </td>
                         <td>
-                            <input type="text" name="" placeholder="Input Name..." class="add-comment-input" ng-Model="name">
+                            <input type="text" name="" placeholder="{{data.freetext.product.inputname}}" class="add-comment-input" ng-Model="name">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="text" name="" placeholder="Input Comment..." class="add-comment-input" ng-Model="comment">
+                            <input type="text" name="" placeholder="{{data.freetext.product.inputcmt}}" class="add-comment-input" ng-Model="comment">
                         </td>
                     </tr>
                     <tr>
@@ -59,7 +59,7 @@
                                 <span ng-repeat="x in [].constructor(starRating) track by $index" class="fa fa-star checked" ng-click="rating($index + 1)"></span>
                                 <span ng-repeat="x in [].constructor(5 - starRating) track by $index" class="fa fa-star" ng-click="rating(starRating + $index + 1)"></span>
                             </div>
-                            <input type="submit" value="Enter comment" class="add-comment-submit">
+                            <input type="submit" value="{{data.freetext.product.entercmt}}" class="add-comment-submit">
                         </td>
                     </tr>
                 </table>

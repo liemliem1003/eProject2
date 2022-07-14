@@ -32,12 +32,13 @@ app.controller('myCtrl',function($scope, $http){
         $http.get('data.json').then(function(rspt) {
             if(localStorage.getItem ("data") == null) {
                 localStorage.setItem("data", JSON.stringify(rspt.data));   
-                $scope.data= JSON.parse(localStorage.getItem("data"));  
-
+                $scope.datalang= JSON.parse(localStorage.getItem("data"));  
             }     
             else{
-                $scope.data= JSON.parse(localStorage.getItem("data"));
+                $scope.datalang= JSON.parse(localStorage.getItem("data"));
             }
+            $scope.language = "en"
+            $scope.data = $scope.datalang[$scope.language]
             location.hash.split("product?id=")[1] == undefined ? $scope.IDselectedProduct = 0 : $scope.IDselectedProduct = location.hash.split("=")[1];
             $scope.selectedProduct = $scope.data.product[$scope.IDselectedProduct];
             location.hash.split("stylist_detail?id=")[1] == undefined ? $scope.IDselectedStylist = 0 : $scope.IDselectedStylist = location.hash.split("=")[1];
@@ -52,11 +53,11 @@ app.controller('myCtrl',function($scope, $http){
             }
             $scope.stylist = $scope.data.stylist;
             $scope.collection = $scope.data.collection;
-
             $scope.stylist1 = []
             $scope.stylist2 = []
             $scope.stylist3 = []
             $scope.stylist4 = []
+
 
             for (let i = 0; i < $scope.data.product.length; i++) {
                 var item = $scope.data.product[i];
@@ -168,13 +169,13 @@ app.controller('myCtrl',function($scope, $http){
     }
     $scope.signup = function(user,pass,name){
         if(user == "" || user == undefined){
-            alert("Username can not be blank")
+            alert($scope.data.freetext.loginpanel.alert1)
         }else if(!namecheck.test(user)){
-            alert("Username star with a alphabet character, length is 8-12 and doesn't contain Special characters")
+            alert($scope.data.freetext.loginpanel.alert2)
         }else if(pass == undefined || pass.length < 6 || pass.length > 12){
-            alert("Password has length between 6 to 12 character")
+            alert($scope.data.freetext.loginpanel.alert3)
         }else if(name =="" || name == undefined){
-            alert("Name can not be blank")
+            alert($scope.data.freetext.loginpanel.alert4)
         }else{
             var check = true;
             for (let i = 0; i < $scope.data.account.length; i++) {
@@ -196,7 +197,56 @@ app.controller('myCtrl',function($scope, $http){
             }
         }
     }
-    $scope.googlemap = 'http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q={{Property.Address.Location.Latitude}},{{Property.Address.Location.Longitude}}&amp;output=embed'
+    $scope.translate = function(lang){
+        $scope.language = lang
+        $scope.data = $scope.datalang[$scope.language]
+        $scope.collection = $scope.data.collection;
+        $scope.stylist = $scope.data.stylist;
+        $scope.selectedStylist = $scope.data.stylist[$scope.IDselectedStylist];
+        $scope.selectedProduct = $scope.data.product[$scope.IDselectedProduct];
+    
+        $scope.springList = []
+        $scope.summerList = []
+        $scope.fallList = []
+        $scope.winterList = []
+
+        for (let i = 0; i < $scope.data.product.length; i++) {
+            var item = $scope.data.product[i];
+            item.collection == 0 ? $scope.springList[$scope.springList.length] = item : true
+            item.collection == 1 ? $scope.summerList[$scope.summerList.length] = item : true
+            item.collection == 2 ? $scope.fallList[$scope.fallList.length] = item : true
+            item.collection == 3 ? $scope.winterList[$scope.winterList.length] = item : true
+        }
+
+        $scope.productListCollection = [
+            $scope.springList,
+            $scope.summerList,
+            $scope.fallList,
+            $scope.winterList
+        ]    
+        $scope.stylist1 = []
+        $scope.stylist2 = []
+        $scope.stylist3 = []
+        $scope.stylist4 = []
+
+
+        for (let i = 0; i < $scope.data.product.length; i++) {
+            var item = $scope.data.product[i];
+            item.collection == 0 ? $scope.stylist1[$scope.stylist1.length] = item : true
+            item.collection == 1 ? $scope.stylist2[$scope.stylist2.length] = item : true
+            item.collection == 2 ? $scope.stylist3[$scope.stylist3.length] = item : true
+            item.collection == 3 ? $scope.stylist4[$scope.stylist4.length] = item : true
+        }
+
+        $scope.productListStylist = [
+            $scope.stylist1,
+            $scope.stylist2,
+            $scope.stylist3,
+            $scope.stylist4
+        ]
+
+        console.log($scope.productListStylist);
+    }
 });
 
 
