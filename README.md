@@ -1,4 +1,10 @@
-Group: No.6
+E-Project-2022
+
+T1.2203.E1-eProject Group_6
+
+Batch no.: T1.2203.E1
+
+CENTER NAME: ACE-HCMC-2-FPT
 
 Project title: Stylist
 
