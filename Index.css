@@ -9,7 +9,8 @@ a{
 	clip-path: circle();
 }
 header{
-	background: #4ABDAC;
+	/* background: #4ABDAC; */
+	background-image: linear-gradient(to right, rgb(183, 255, 0) , #62ffe8);
 	/*height: 150px;*/
 	font-weight: bold;
 }
@@ -68,7 +69,7 @@ header{
 	margin: auto;
 }
 .footer{
-	background: #4ABDAC;
+	background-image: linear-gradient(to right, #62ffe8 , rgb(183, 255, 0));
 	display: grid;
 	justify-content: center;
 }
