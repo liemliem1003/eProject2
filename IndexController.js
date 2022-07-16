@@ -37,7 +37,7 @@ app.controller('myCtrl',function($scope, $http){
             else{
                 $scope.datalang= JSON.parse(localStorage.getItem("data"));
             }
-            $scope.language = "en"
+            $scope.language = "vi"
             $scope.data = $scope.datalang[$scope.language]
             location.hash.split("product?id=")[1] == undefined ? $scope.IDselectedProduct = 0 : $scope.IDselectedProduct = location.hash.split("=")[1];
             $scope.selectedProduct = $scope.data.product[$scope.IDselectedProduct];
@@ -107,7 +107,7 @@ app.controller('myCtrl',function($scope, $http){
         else{
             $scope.imgnum--;
             $scope.imgnum < 0 ? $scope.imgnum = imglist.length-1 : $scope.imgnum = $scope.imgnum
-        }
+        } 
         $scope.currentImg = imglist[$scope.imgnum];
     }
 
