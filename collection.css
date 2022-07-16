@@ -7,11 +7,7 @@
 	background: #DFDCE3;
 }
 .collection a{
-	font-weight: bold;
 	color: black;
-}
-.collection a:hover{
-	color: blue;
 }
 .icon{
 	width: 200px;

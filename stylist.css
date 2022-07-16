@@ -1,15 +1,12 @@
-.stylist{
-	justify-content: center;
-	display: flex;
-}
 .stylist:hover{
 	background: #DFDCE3;
 }
 .stylist a{
 	color: black;
-	font-weight: bold;
+	justify-content: center;
+	display: flex;
 }
-.stylist a:hover{
+.stylist a:hover .name{
 	color: blue;
 }
 

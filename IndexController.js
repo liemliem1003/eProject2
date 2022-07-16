@@ -131,8 +131,9 @@ app.controller('myCtrl',function($scope, $http){
         }
         $scope.commentlist[$scope.commentlist.length] = obj
         $scope.data.comment[$scope.data.comment.length] = obj
-        $scope.datalang[$scope.lang] = $scope.data
-        
+        $scope.datalang[$scope.language] = $scope.data
+        var lang2 = $scope.language == "vn" ? "en" : "vn";
+        $scope.datalang[lang2].comment = $scope.data.comment
         localStorage.setItem("data", JSON.stringify($scope.datalang));   
     }
     $scope.changeIcon = function(icon){
@@ -191,7 +192,9 @@ app.controller('myCtrl',function($scope, $http){
                     "user": user,
                     "pass": pass
                 }
-                $scope.datalang[$scope.lang] = $scope.data
+                $scope.datalang[$scope.language] = $scope.data
+                var lang2 = $scope.language == "vn" ? "en" : "vn";
+                $scope.datalang[lang2].account = $scope.data.account
                 localStorage.setItem("data", JSON.stringify($scope.datalang));
                 alert("Sign up successfully")
             }else{
