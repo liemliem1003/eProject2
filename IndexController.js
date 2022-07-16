@@ -37,7 +37,7 @@ app.controller('myCtrl',function($scope, $http){
             else{
                 $scope.datalang= JSON.parse(localStorage.getItem("data"));
             }
-            $scope.language = "vi"
+            $scope.language = "en"
             $scope.data = $scope.datalang[$scope.language]
             location.hash.split("product?id=")[1] == undefined ? $scope.IDselectedProduct = 0 : $scope.IDselectedProduct = location.hash.split("=")[1];
             $scope.selectedProduct = $scope.data.product[$scope.IDselectedProduct];
