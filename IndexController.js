@@ -116,7 +116,6 @@ app.controller('myCtrl',function($scope, $http){
 
     $scope.starRating = 5;
     $scope.rating = function(star){
-        console.log(star);
         $scope.starRating = star;
     }
 
@@ -132,7 +131,9 @@ app.controller('myCtrl',function($scope, $http){
         }
         $scope.commentlist[$scope.commentlist.length] = obj
         $scope.data.comment[$scope.data.comment.length] = obj
-        localStorage.setItem("data", JSON.stringify($scope.data));   
+        $scope.datalang[$scope.lang] = $scope.data
+        
+        localStorage.setItem("data", JSON.stringify($scope.datalang));   
     }
     $scope.changeIcon = function(icon){
         $scope.selectedIcon = icon
@@ -161,7 +162,7 @@ app.controller('myCtrl',function($scope, $http){
                 }
             }
             if(check){
-                alert("Sign in success")
+                alert("Sign in successfully")
             }else{
                 alert("Username or Password is wrong")
             }
@@ -190,8 +191,9 @@ app.controller('myCtrl',function($scope, $http){
                     "user": user,
                     "pass": pass
                 }
-                localStorage.setItem("data", JSON.stringify($scope.data));
-                alert("Sign up success")
+                $scope.datalang[$scope.lang] = $scope.data
+                localStorage.setItem("data", JSON.stringify($scope.datalang));
+                alert("Sign up successfully")
             }else{
                 alert("Username has existed")
             }
@@ -244,8 +246,6 @@ app.controller('myCtrl',function($scope, $http){
             $scope.stylist3,
             $scope.stylist4
         ]
-
-        console.log($scope.productListStylist);
     }
 });
 
